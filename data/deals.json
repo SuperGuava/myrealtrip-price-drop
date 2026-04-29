@@ -24,13 +24,13 @@
     "mode": "new_lows_only"
   },
   "lastSweepAt": "2026-04-30 05:41 KST",
-  "lastSweepRunId": "mb-restore-20260430T0541-osaka-seed",
+  "lastSweepRunId": "mb-empty-test-20260430T0541-bangkok",
   "lastSweepMeta": {
     "source": "mangobingsu-myrealtrip",
     "received": 6,
     "emitted": 0,
     "rejected": 0,
     "rejections": [],
-    "mode": "include_new_seed"
+    "mode": "new_lows_only"
   }
 }
