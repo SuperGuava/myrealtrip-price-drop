@@ -41,23 +41,10 @@
         "why": "표준 입장권 위주, 다른 OTA 가격을 함께 노출"
       },
       "priceComparison": {
-        "checkedAt": "2026-04-30T06:45:32+09:00",
+        "checkedAt": "2026-04-30T06:46:42+09:00",
         "query": "도쿄 디즈니랜드 1일권",
-        "sources": [
-          {
-            "seller": "하나투어",
-            "price": 1089900,
-            "currency": "KRW",
-            "url": "http://enbt.hanatour.com/",
-            "snippet": "청주출발 도쿄 가족여행추천 디즈니랜드 1일권과 편리한 전용버스 이동 1,089,900원 배송비 무료 하나투어 이엔비티 패키지여행"
-          }
-        ],
-        "verdict": {
-          "mrtIsCheapest": true,
-          "savingPct": 91,
-          "cheapestOther": 1089900,
-          "deltaWon": 996580
-        }
+        "sources": [],
+        "verdict": null
       }
     },
     {
@@ -86,7 +73,7 @@
         "why": "표준 입장권 위주, 다른 OTA 가격을 함께 노출"
       },
       "priceComparison": {
-        "checkedAt": "2026-04-30T06:45:40+09:00",
+        "checkedAt": "2026-04-30T06:46:51+09:00",
         "query": "오사카 유니버설 스튜디오 1일권",
         "sources": [
           {
@@ -136,14 +123,14 @@
     "mode": "include_new_seed"
   },
   "lastComparisonSweep": {
-    "checkedAt": "2026-04-30T06:45:42+09:00",
+    "checkedAt": "2026-04-30T06:46:53+09:00",
     "summary": [
       {
         "i": 0,
         "title": "도쿄 디즈니리조트 1데이 패스포트 (디즈니랜드 또는 디즈니씨)",
         "mrt": 93320,
-        "cheapestOther": 1089900,
-        "sourceCount": 1
+        "cheapestOther": null,
+        "sourceCount": 0
       },
       {
         "i": 1,
