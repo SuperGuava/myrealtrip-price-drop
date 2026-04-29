@@ -207,5 +207,27 @@
     "lastSeenAt": "2026-04-29T21:44:02.715Z",
     "firstSeenAt": "2026-04-29T21:44:02.715Z",
     "reviewScore": 4.8
+  },
+  "mangobingsu-myrealtrip:5869251": {
+    "source": "mangobingsu-myrealtrip",
+    "id": "5869251",
+    "title": "오사카 주유패스 1일권 / 2일권 (디지털권/즉시사용)",
+    "url": "https://experiences.myrealtrip.com/products/5869251",
+    "minPrice": 31011,
+    "lastPrice": 31011,
+    "lastSeenAt": "2026-04-29T21:47:23.370Z",
+    "firstSeenAt": "2026-04-29T21:47:23.370Z",
+    "reviewScore": 4.8
+  },
+  "mangobingsu-myrealtrip:5869283": {
+    "source": "mangobingsu-myrealtrip",
+    "id": "5869283",
+    "title": "도쿄 스카이트리 전망대 & 스미다 수족관 입장권",
+    "url": "https://experiences.myrealtrip.com/products/5869283",
+    "minPrice": 34278,
+    "lastPrice": 34278,
+    "lastSeenAt": "2026-04-29T21:47:23.370Z",
+    "firstSeenAt": "2026-04-29T21:47:23.370Z",
+    "reviewScore": 3.4
   }
 }
