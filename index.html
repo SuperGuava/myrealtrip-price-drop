@@ -80,7 +80,7 @@
     }
     function renderDeals(data){
       const deals = Array.isArray(data?.deals) ? data.deals : [];
-      if(data?.runId?.startsWith('mb-curated-')) document.getElementById('dealsHeading').textContent = '오늘의 비교 SKU';
+      if(data?.runId?.startsWith('mb-curated-')) document.getElementById('dealsHeading').textContent = '오늘의 비교 SKU' + (data.theme?.city ? ' — ' + data.theme.city : '');
       document.getElementById('today').textContent = '— ' + (data?.date || '');
       if (data?.theme?.title) document.getElementById('heroTitle').textContent = data.theme.title;
       if (data?.theme?.subtitle) document.getElementById('heroSubtitle').textContent = data.theme.subtitle;
