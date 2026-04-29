@@ -82,14 +82,32 @@ const cta = src.affiliateUrl || src.url;
 
 ## 3. 운영 변경사항 메모
 
-### 큐레이션 표준 SKU 트랙 (라이브)
+### 큐레이션 표준 SKU 트랙 (라이브 · 4테마)
 
 - daily collector 가 매일 09:30 KST 에 큐레이션 테마를 푸시.
-- DOW 로테이션:
-  - Mon (1) / Wed (3) / Fri (5) → `japan_themepark` (도쿄 디즈니, USJ)
+- DOW 로테이션 (4테마 균형):
+  - Mon (1) / Fri (5) → `japan_themepark` (도쿄 디즈니, USJ)
   - Tue (2) / Sat (6) → `southeast_asia_iconic` (다낭 바나힐, 방콕 디너크루즈)
-  - Thu (4) / Sun (0) → `japan_citypass` (오사카 주유패스, 도쿄 스카이트리)
+  - Wed (3)         → `japan_citypass` (오사카 주유패스, 도쿄 스카이트리)
+  - Thu (4) / Sun (0) → `jeju_family_outdoor` (서귀포잠수함, 헬로키티아일랜드, 제주 레일바이크) ← NEW (국내·가족 페르소나)
 - 레지스트리: `notes/curated_standard_skus.json` — gid + naverQuery 로 표준 SKU 만 큐레이션.
+
+### 결정적 랜덤 샘플링 (NEW)
+
+`curated_seed.py` 가 `--sample-size 4 --seed YYYYMMDD` 로 호출되도록 collector 갱신. 풀이 4개 이하면 전체 그대로 (현재 상태), 풀이 5+ 가 되면 날짜별 결정적 부분집합. 같은 날 = 같은 결과, 날짜 바뀜 = 자동 로테이션. 시간대별 다양성 필요해지면 시드를 `%Y%m%d%H` 로 바꾸면 됨.
+
+→ frontend 영향 없음. 데이터 스키마 동일. 다만 같은 테마라도 다른 날에는 다른 조합이 노출될 수 있음을 인지.
+
+### 동적 헤더 카피 권장 (확장)
+
+`deals_doc.theme.title` / `deals_doc.theme.city` 가 이미 들어옴. 큐레이션 트랙은 매일 도시·페르소나가 다르므로 hero subtitle 도 그걸 반영하면 살아있는 사이트로 보임:
+
+```
+오늘의 비교: {theme.title}
+{theme.subtitle}
+```
+
+`runId` 가 `mb-curated-...` 로 시작하면 큐레이션 트랙이라는 것도 동시에 알 수 있다.
 
 ### Cross-OTA SERP 비교 (라이브)
 
