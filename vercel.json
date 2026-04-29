@@ -1,0 +1,10 @@
+{
+  "buildCommand": "node scripts/update-deals.js",
+  "outputDirectory": ".",
+  "headers": [
+    {
+      "source": "/data/deals.json",
+      "headers": [{ "key": "Cache-Control", "value": "no-store" }]
+    }
+  ]
+}

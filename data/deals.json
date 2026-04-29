@@ -1,0 +1,28 @@
+{
+  "date": "2026-04-29",
+  "updatedAt": "2026-04-29 22:20 KST",
+  "metrics": {
+    "joins": 4,
+    "clicks": 0,
+    "payments": 0
+  },
+  "deals": [
+    {
+      "shop": "마이리얼트립",
+      "title": "오사카 유니버설 스튜디오 재팬 1일권",
+      "price": 82000,
+      "previousPrice": 93000,
+      "url": "https://www.myrealtrip.com/offers/50211",
+      "source": "mangobingsu-myrealtrip",
+      "sourceId": "50211",
+      "reviewScore": 4.8,
+      "lowType": "new_low"
+    }
+  ],
+  "meta": {
+    "source": "mangobingsu-myrealtrip",
+    "received": 1,
+    "emitted": 1,
+    "mode": "include_new_seed"
+  }
+}

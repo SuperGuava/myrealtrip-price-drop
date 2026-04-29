@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://superguava.github.io/myrealtrip-price-drop/sitemap.xml

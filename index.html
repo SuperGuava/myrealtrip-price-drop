@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>망고여행 가격하락 실험실 — 오늘의 발견</title>
+  <meta name="description" content="매일 업데이트되는 신저가 발견 랜딩페이지" />
+  <meta property="og:title" content="망고여행 가격하락 실험실 — 오늘의 발견" />
+  <meta property="og:description" content="오늘 발견한 신저가만 모았습니다." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://superguava.github.io/myrealtrip-price-drop/" />
+  <meta name="theme-color" content="#ffb11b" />
+  <style>
+    :root{--bg:#10130f;--card:#181d16;--ink:#f8f6e9;--muted:#a9ad9b;--mango:#ffb11b;--green:#8ee06f;--line:#293023;--danger:#ff6b57}*{box-sizing:border-box}body{margin:0;font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:radial-gradient(circle at top left,#2b341f 0,#10130f 38%,#090b08 100%);color:var(--ink)}main{max-width:1040px;margin:0 auto;padding:40px 18px 72px}.badge{display:inline-flex;gap:8px;align-items:center;border:1px solid var(--line);background:rgba(255,255,255,.05);border-radius:999px;padding:9px 14px;color:var(--muted);font-size:14px}.hero{padding:42px 0 30px}.hero h1{font-size:clamp(38px,7vw,78px);line-height:.95;margin:18px 0 16px;letter-spacing:-.06em}.hero p{font-size:20px;color:var(--muted);max-width:660px;line-height:1.55}.mango{color:var(--mango)}.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:28px 0}.stat,.deal,.cta{background:linear-gradient(180deg,rgba(255,255,255,.07),rgba(255,255,255,.03));border:1px solid var(--line);border-radius:24px;padding:18px;box-shadow:0 18px 60px rgba(0,0,0,.22)}.stat strong{font-size:34px;display:block}.stat span{color:var(--muted);font-size:14px}.section-head{display:flex;justify-content:space-between;gap:16px;align-items:flex-end;margin:36px 0 14px}h2{font-size:26px;margin:0}.updated{color:var(--muted);font-size:14px}.deals{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.deal{min-height:190px;display:flex;flex-direction:column;justify-content:space-between}.deal .shop{color:var(--green);font-weight:700;font-size:14px}.deal h3{font-size:20px;margin:10px 0 8px;line-height:1.25}.price{display:flex;align-items:baseline;gap:10px}.now{font-size:28px;font-weight:900;color:var(--mango)}.was{color:var(--muted);text-decoration:line-through}.drop{display:inline-flex;width:max-content;border-radius:999px;padding:6px 10px;background:rgba(255,107,87,.14);color:#ff9b8d;font-weight:800;font-size:13px}.cta{margin-top:18px;display:flex;justify-content:space-between;align-items:center;gap:20px}.cta p{margin:6px 0 0;color:var(--muted)}button,.button{border:0;border-radius:16px;background:var(--mango);color:#191000;font-weight:900;padding:14px 18px;text-decoration:none;white-space:nowrap}.empty{color:var(--muted);border:1px dashed var(--line);border-radius:20px;padding:22px}@media(max-width:820px){.grid,.deals{grid-template-columns:1fr 1fr}.cta{align-items:flex-start;flex-direction:column}}@media(max-width:560px){main{padding-top:24px}.grid,.deals{grid-template-columns:1fr}.hero h1{font-size:44px}}
+  </style>
+</head>
+<body>
+  <main>
+    <div class="hero">
+      <div class="badge">🥭 망고여행 가격하락 실험실 <span id="today">—</span></div>
+      <h1>오늘 발견한<br/><span class="mango">신저가만</span> 모았습니다.</h1>
+      <p>마이리얼트립 기반 여행 상품 후보와 가격 변화를 검증하는 초경량 실험 페이지입니다.</p>
+      <div class="grid">
+        <div class="stat"><strong id="joins">4</strong><span>합류</span></div>
+        <div class="stat"><strong id="clicks">0</strong><span>클릭</span></div>
+        <div class="stat"><strong id="payments">0</strong><span>결제</span></div>
+        <div class="stat"><strong id="dealCount">5</strong><span>발견된 신저가</span></div>
+      </div>
+    </div>
+
+    <div class="section-head">
+      <h2>오늘의 신저가</h2>
+      <div class="updated" id="updatedAt">업데이트 확인 중…</div>
+    </div>
+    <section class="deals" id="deals"></section>
+
+    <section class="cta">
+      <div>
+        <h2>매일 아침 자동 업데이트</h2>
+        <p>데이터 소스만 연결하면 크롤링/제휴 API/수동 CSV 어느 방식이든 운영 가능합니다.</p>
+      </div>
+      <a class="button" href="mailto:hello@Mango Travel Price Drop">입점/알림 문의</a>
+    </section>
+  </main>
+  <script>
+    const money = n => new Intl.NumberFormat('ko-KR').format(n) + '원';
+    async function boot(){
+      const res = await fetch('./data/deals.json', {cache:'no-store'});
+      const data = await res.json();
+      document.getElementById('today').textContent = '— ' + data.date;
+      document.getElementById('joins').textContent = data.metrics.joins;
+      document.getElementById('clicks').textContent = data.metrics.clicks;
+      document.getElementById('payments').textContent = data.metrics.payments;
+      document.getElementById('dealCount').textContent = data.deals.length;
+      document.getElementById('updatedAt').textContent = '마지막 업데이트 ' + data.updatedAt;
+      const root = document.getElementById('deals');
+      root.innerHTML = data.deals.length ? data.deals.map(d => `
+        <article class="deal">
+          <div>
+            <div class="shop">${d.shop}${d.reviewScore ? ' · ★ ' + d.reviewScore : ''}</div>
+            <h3>${d.title}</h3>
+            <div class="price"><span class="now">${money(d.price)}</span><span class="was">${money(d.previousPrice)}</span></div>
+          </div>
+          <div style="display:flex;justify-content:space-between;align-items:center;gap:10px"><div class="drop">${d.lowType === 'first_seen' ? '첫 수집가' : '-' + Math.round((1 - d.price / d.previousPrice) * 100) + '% 신저가'}</div><a class="button" style="padding:9px 11px;border-radius:12px;font-size:13px" href="${d.url}" target="_blank" rel="noopener">보기</a></div>
+        </article>`).join('') : '<div class="empty">오늘 발견된 신저가가 아직 없습니다.</div>';
+    }
+    boot().catch(()=>{document.getElementById('deals').innerHTML='<div class="empty">데이터를 불러오지 못했습니다.</div>'});
+  </script>
+</body>
+</html>
