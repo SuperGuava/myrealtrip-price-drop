@@ -1,10 +1,10 @@
 {
   "date": "2026-04-30",
-  "updatedAt": "2026-04-30 05:30 KST",
-  "runId": "2026-04-30-osaka-family-seed-001",
+  "updatedAt": "2026-04-30 06:27 KST",
+  "runId": "mb-20260430T0627-osaka-standard-seed",
   "theme": {
-    "title": "오사카 가족여행 오늘의 가격하락",
-    "subtitle": "아이랑 가기 좋은 티켓·투어 중심",
+    "title": "오사카 가족여행 — 표준 입장권 비교",
+    "subtitle": "다른 OTA 가격과 함께 보여드립니다",
     "city": "오사카",
     "persona": "family-with-kids"
   },
@@ -12,259 +12,42 @@
     "joins": 0,
     "clicks": 0,
     "payments": 0,
-    "discoveredCount": 6
+    "discoveredCount": 1
   },
   "deals": [
     {
       "shop": "마이리얼트립",
-      "title": "[교토] 실속 있는 알짜 일일 프라이빗 투어 가족여행 추천",
-      "price": 94000,
-      "previousPrice": null,
-      "url": "https://myrealt.rip/YvaA2c",
+      "title": "오사카 유니버설 스튜디오 재팬 1일권",
+      "price": 82000,
+      "previousPrice": 93000,
+      "url": "https://www.myrealtrip.com/offers/50211",
       "source": "mangobingsu-myrealtrip",
-      "sourceId": "3512795",
+      "sourceId": "50211",
       "reviewScore": 4.8,
-      "lowType": "first_collected",
-      "label": "첫 수집가",
+      "lowType": "new_low",
+      "label": "오늘의 가격하락",
       "evidence": {
-        "priceSource": "myrealtrip-partner-api",
-        "checkedAt": "2026-04-30T05:30:17+09:00",
-        "reason": "MRT TNA 검색 시점가 94,000원"
+        "priceSource": "myrealtrip-curated",
+        "checkedAt": "2026-04-30T06:27:16+09:00",
+        "reason": "마이리얼트립 직접 판매 ₩82,000 (이전 ₩93,000 대비)"
       },
       "tags": [
         "오사카",
-        "family-with-kids"
+        "테마파크",
+        "1일권"
       ],
       "display": {
-        "badge": "오늘의 후보",
-        "why": "아이랑 가기 좋은 티켓·투어 중심"
-      },
-      "priceComparison": {
-        "checkedAt": "2026-04-30T06:25:10+09:00",
-        "query": "실속 있는 알짜 일일 프라이빗 투어",
-        "sources": [],
-        "verdict": null
-      }
-    },
-    {
-      "shop": "마이리얼트립",
-      "title": "가족여행 프라이빗투어 오사카를 한방에~~~",
-      "price": 94000,
-      "previousPrice": null,
-      "url": "https://myrealt.rip/YvaBc5",
-      "source": "mangobingsu-myrealtrip",
-      "sourceId": "3512798",
-      "reviewScore": 5,
-      "lowType": "first_collected",
-      "label": "첫 수집가",
-      "evidence": {
-        "priceSource": "myrealtrip-partner-api",
-        "checkedAt": "2026-04-30T05:30:17+09:00",
-        "reason": "MRT TNA 검색 시점가 94,000원"
-      },
-      "tags": [
-        "오사카",
-        "family-with-kids"
-      ],
-      "display": {
-        "badge": "오늘의 후보",
-        "why": "아이랑 가기 좋은 티켓·투어 중심"
-      },
-      "priceComparison": {
-        "checkedAt": "2026-04-30T06:25:18+09:00",
-        "query": "가족여행 프라이빗투어 오사카를 한방에~~~",
-        "sources": [],
-        "verdict": null
-      }
-    },
-    {
-      "shop": "마이리얼트립",
-      "title": "[교토] 고급밴 단독 차량,자녀들의 체험학습 여행, 효도여행, 가족여행,친구들의 추억쌓기!",
-      "price": 110791,
-      "previousPrice": null,
-      "url": "https://myrealt.rip/YvaC41",
-      "source": "mangobingsu-myrealtrip",
-      "sourceId": "3886418",
-      "reviewScore": 5,
-      "lowType": "first_collected",
-      "label": "첫 수집가",
-      "evidence": {
-        "priceSource": "myrealtrip-partner-api",
-        "checkedAt": "2026-04-30T05:30:17+09:00",
-        "reason": "MRT TNA 검색 시점가 110,791원"
-      },
-      "tags": [
-        "오사카",
-        "family-with-kids"
-      ],
-      "display": {
-        "badge": "오늘의 후보",
-        "why": "아이랑 가기 좋은 티켓·투어 중심"
-      },
-      "priceComparison": {
-        "checkedAt": "2026-04-30T06:25:25+09:00",
-        "query": "고급밴 단독 차량,자녀들의 체험학습 여행, 효도여행,",
-        "sources": [],
-        "verdict": null
-      }
-    },
-    {
-      "shop": "마이리얼트립",
-      "title": "[교토] 프라이빗 투어! 행복한 가족여행",
-      "price": 86000,
-      "previousPrice": null,
-      "url": "https://myrealt.rip/YvaD75",
-      "source": "mangobingsu-myrealtrip",
-      "sourceId": "3517975",
-      "reviewScore": 4.6,
-      "lowType": "first_collected",
-      "label": "첫 수집가",
-      "evidence": {
-        "priceSource": "myrealtrip-partner-api",
-        "checkedAt": "2026-04-30T05:30:17+09:00",
-        "reason": "MRT TNA 검색 시점가 86,000원"
-      },
-      "tags": [
-        "오사카",
-        "family-with-kids"
-      ],
-      "display": {
-        "badge": "오늘의 후보",
-        "why": "아이랑 가기 좋은 티켓·투어 중심"
-      },
-      "priceComparison": {
-        "checkedAt": "2026-04-30T06:25:33+09:00",
-        "query": "프라이빗 투어! 행복한 가족여행",
-        "sources": [],
-        "verdict": null
-      }
-    },
-    {
-      "shop": "마이리얼트립",
-      "title": "[30분] 2026년 교토 오사카 특별한 가족 커플스냅",
-      "price": 89800,
-      "previousPrice": null,
-      "url": "https://myrealt.rip/YvaE56",
-      "source": "mangobingsu-myrealtrip",
-      "sourceId": "3885134",
-      "reviewScore": 5,
-      "lowType": "first_collected",
-      "label": "첫 수집가",
-      "evidence": {
-        "priceSource": "myrealtrip-partner-api",
-        "checkedAt": "2026-04-30T05:30:17+09:00",
-        "reason": "MRT TNA 검색 시점가 89,800원"
-      },
-      "tags": [
-        "오사카",
-        "family-with-kids"
-      ],
-      "display": {
-        "badge": "오늘의 후보",
-        "why": "아이랑 가기 좋은 티켓·투어 중심"
-      },
-      "priceComparison": {
-        "checkedAt": "2026-04-30T06:25:41+09:00",
-        "query": "2026년 교토 오사카 특별한 가족 커플스냅",
-        "sources": [],
-        "verdict": null
-      }
-    },
-    {
-      "shop": "마이리얼트립",
-      "title": "오사카 프라이빗 시내 투어(맞춤투어)(7인 이상 가족에게 추천)",
-      "price": 75000,
-      "previousPrice": null,
-      "url": "https://myrealt.rip/YvaF54",
-      "source": "mangobingsu-myrealtrip",
-      "sourceId": "3885435",
-      "reviewScore": 5,
-      "lowType": "first_collected",
-      "label": "첫 수집가",
-      "evidence": {
-        "priceSource": "myrealtrip-partner-api",
-        "checkedAt": "2026-04-30T05:30:17+09:00",
-        "reason": "MRT TNA 검색 시점가 75,000원"
-      },
-      "tags": [
-        "오사카",
-        "family-with-kids"
-      ],
-      "display": {
-        "badge": "오늘의 후보",
-        "why": "아이랑 가기 좋은 티켓·투어 중심"
-      },
-      "priceComparison": {
-        "checkedAt": "2026-04-30T06:25:48+09:00",
-        "query": "오사카 프라이빗 시내 투어(맞춤투어)(7인 이상 가족에게",
-        "sources": [],
-        "verdict": null
+        "badge": "오늘의 가격하락",
+        "why": "오사카 가족여행 핵심 입장권 — 다른 OTA 비교 베이스라인"
       }
     }
   ],
   "meta": {
     "source": "mangobingsu-myrealtrip",
-    "received": 6,
-    "emitted": 6,
+    "received": 1,
+    "emitted": 1,
     "rejected": 0,
     "rejections": [],
     "mode": "include_new_seed"
-  },
-  "lastSweepAt": "2026-04-30 05:51 KST",
-  "lastSweepRunId": "mb-20260430T0551-osaka-sweep-meta-fix",
-  "lastSweepMeta": {
-    "source": "mangobingsu-myrealtrip",
-    "received": 6,
-    "emitted": 0,
-    "rejected": 0,
-    "rejections": [],
-    "mode": "new_lows_only"
-  },
-  "lastComparisonSweep": {
-    "checkedAt": "2026-04-30T06:25:50+09:00",
-    "summary": [
-      {
-        "i": 0,
-        "title": "[교토] 실속 있는 알짜 일일 프라이빗 투어 가족여행 추천",
-        "mrt": 94000,
-        "cheapestOther": null,
-        "sourceCount": 0
-      },
-      {
-        "i": 1,
-        "title": "가족여행 프라이빗투어 오사카를 한방에~~~",
-        "mrt": 94000,
-        "cheapestOther": null,
-        "sourceCount": 0
-      },
-      {
-        "i": 2,
-        "title": "[교토] 고급밴 단독 차량,자녀들의 체험학습 여행, 효도여행, 가족여행,친구들의 추억쌓기!",
-        "mrt": 110791,
-        "cheapestOther": null,
-        "sourceCount": 0
-      },
-      {
-        "i": 3,
-        "title": "[교토] 프라이빗 투어! 행복한 가족여행",
-        "mrt": 86000,
-        "cheapestOther": null,
-        "sourceCount": 0
-      },
-      {
-        "i": 4,
-        "title": "[30분] 2026년 교토 오사카 특별한 가족 커플스냅",
-        "mrt": 89800,
-        "cheapestOther": null,
-        "sourceCount": 0
-      },
-      {
-        "i": 5,
-        "title": "오사카 프라이빗 시내 투어(맞춤투어)(7인 이상 가족에게 추천)",
-        "mrt": 75000,
-        "cheapestOther": null,
-        "sourceCount": 0
-      }
-    ]
   }
 }
