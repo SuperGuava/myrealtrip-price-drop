@@ -109,7 +109,84 @@ const cta = src.affiliateUrl || src.url;
 2. 그 외에는 현재 frontend 그대로 유지. 데이터 스키마는 backwards-compatible.
 3. 막히면 망고빙수 텔레그램으로 핑.
 
-## 5. 다음 액션 (구화)
+## 5. 추가 데이터 피드 (NEW — 2026-04-30 18:00 KST 추가)
 
-1. WAUG / Klook 등 affiliate 가입 — `notes/affiliate_signup.md` 의 1·2순위.
-2. PAT 만료/회전 — mango-ops 권한이 막혀서 이 핸드오프를 mango-ops 가 아닌 myrealtrip-price-drop repo `notes/` 에 배치했다. 다음에 mango-ops 도 같이 쓰려면 PAT 갱신 필요.
+> 구화 요청: lowprice.kr v0 카드 이미지에 있던 정보(자몽 신저가 + 인벤토리 +
+> 합류 CTA)를 망고 frontend 에 통합해달라. 별도 JSON 두 개로 publish 했음.
+
+### 5-1. data/airfare_lowprice.json
+
+자몽이 발급한 항공 신저가 카드 (이미 매번 갱신될 예정). 스키마:
+
+```json
+{
+  "checkedAt": "2026-04-30T07:47:16+09:00",
+  "totalSave": 342700,
+  "count": 6,
+  "cards": [
+    {
+      "origin": "ICN",
+      "destination": "BKK",
+      "depart": "2026-06-12",
+      "carrier": "SC",
+      "intl": true,
+      "price": 215100,
+      "baseline": 267500,
+      "save": 52400,
+      "mylinkCode": "https://myrealt.rip/Ygvn38",
+      "mylink": "https://myrealt.rip/Ygvn38",
+      "external": {
+        "naver":      "https://flight.naver.com/...",
+        "kayak":      "https://www.kayak.co.kr/...",
+        "skyscanner": "https://www.skyscanner.co.kr/...",
+        "google":     "https://www.google.com/travel/flights?..."
+      }
+    },
+    ...
+  ]
+}
+```
+
+### 5-2. data/team_metrics.json
+
+```json
+{
+  "checkedAt": "...",
+  "funnel":     { "joins": 4, "clicks": 0, "payments": 0 },
+  "savings":    { "airfareTotal": 342700, "lowpriceCount": 6 },
+  "inventory":  { "flights": 2, "stays": 3, "experiences": 9, "total": 14 },
+  "cta": {
+    "telegramJoinUrl": "https://t.me/superguava_9_bot",
+    "emailJoin":       "ninefirebar@gmail.com"
+  }
+}
+```
+
+### 5-3. 권장 UI 섹션 (lowprice.kr v0 이미지 그대로 차용 OK)
+
+페이지 구성안:
+
+1. **HERO** — `team_metrics.funnel` + `team_metrics.savings.airfareTotal` 4개 stat
+   (합류 / 클릭 / 결제 / 누적 절약). 기존 deals.json 의 metrics 와 우선순위 협상해서
+   하나만 표시. team_metrics 가 더 상위 진실.
+2. **오늘의 비교 SKU** (큐레이션 트랙) — 기존 `deals.json` 카드 + 1번 항목 priceComparison UI.
+3. **발견한 신저가 (자몽 자동 발급)** — `data/airfare_lowprice.json` cards 6개. 카드 형식:
+   - route: `{origin} → {destination} · {depart}`
+   - now-price + (`save > 0` 이면) `↓ ₩{save:,} 절약` green pill + baseline strikethrough
+   - carrier: `운항 {carrier}`
+   - CTA: `이 가격으로 예약 →` (`mylink` 사용)
+   - small 외부 비교 chips: `naver / kayak / skyscanner / google` (`external.*`)
+4. **운영 중인 망고팀 인벤토리** — `team_metrics.inventory` 3 stat (항공/숙소/액티비티).
+5. **망고팀에 합류하세요** — `team_metrics.cta.telegramJoinUrl` + `emailJoin` 두 버튼.
+
+### 5-4. 갱신 주기
+
+- `data/deals.json`: 큐레이션 daily 09:30 + sweep 6h.
+- `data/airfare_lowprice.json` + `data/team_metrics.json`: 자몽 watch-all 06:30 직후 06:35 KST cron 으로 publish (구화 PAT 갱신 후 활성화).
+- frontend 는 `cache:'no-store'` 로 단순 fetch 만 하면 됨.
+
+## 6. 다음 액션 (구화)
+
+1. **WAUG / Klook 등 affiliate 가입** — `notes/affiliate_signup.md` 의 1·2순위.
+2. **PAT 갱신** — `~/.openclaw/workspace/.env` 첫 줄의 `github_pat_...` 가 만료됐다 (401). data_publish.py / price_comparison_sweep.py / curated_seed.py 의 GitHub PUT 이 모두 그 줄에 의존한다. fine-grained PAT 새로 발급해서 첫 줄 교체 + 가능하면 mango-ops scope 도 포함.
+3. 망고에게 이 핸드오프 위치 (`myrealtrip-price-drop@b7ac8943` → 추후 commit 도 `notes/mango_handoff_2026-04-30.md`) 알리기.
