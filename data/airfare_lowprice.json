@@ -1,0 +1,115 @@
+{
+  "checkedAt": "2026-04-30T07:47:37+09:00",
+  "totalSave": 342700,
+  "count": 6,
+  "cards": [
+    {
+      "origin": "ICN",
+      "destination": "BKK",
+      "depart": "2026-06-12",
+      "carrier": "SC",
+      "intl": true,
+      "price": 215100,
+      "baseline": 267500,
+      "save": 52400,
+      "mylinkCode": "https://myrealt.rip/Ygvn38",
+      "mylink": "https://myrealt.rip/Ygvn38",
+      "external": {
+        "naver": "https://flight.naver.com/flights/international/ICN-BKK-20260612/?adult=2",
+        "kayak": "https://www.kayak.co.kr/flights/ICN-BKK/2026-06-12/2adults",
+        "skyscanner": "https://www.skyscanner.co.kr/transport/flights/icn/bkk/260612/?adultsv2=2",
+        "google": "https://www.google.com/travel/flights?q=Flights%20to%20BKK%20from%20ICN%20on%202026-06-12"
+      }
+    },
+    {
+      "origin": "GMP",
+      "destination": "CJU",
+      "depart": "2026-05-04",
+      "carrier": "ZE",
+      "intl": false,
+      "price": 26600,
+      "baseline": 83600,
+      "save": 57000,
+      "mylinkCode": "https://myrealt.rip/Ygvobf",
+      "mylink": "https://myrealt.rip/Ygvobf",
+      "external": {
+        "naver": "https://flight.naver.com/flights/domestic/GMP-CJU-20260504/?adult=2",
+        "kayak": "https://www.kayak.co.kr/flights/GMP-CJU/2026-05-04/2adults",
+        "skyscanner": "https://www.skyscanner.co.kr/transport/flights/gmp/cju/260504/?adultsv2=2",
+        "google": "https://www.google.com/travel/flights?q=Flights%20to%20CJU%20from%20GMP%20on%202026-05-04"
+      }
+    },
+    {
+      "origin": "GMP",
+      "destination": "CJU",
+      "depart": "2026-05-04",
+      "carrier": "TW",
+      "intl": false,
+      "price": 27300,
+      "baseline": 83600,
+      "save": 56300,
+      "mylinkCode": "https://myrealt.rip/YkQD14",
+      "mylink": "https://myrealt.rip/YkQD14",
+      "external": {
+        "naver": "https://flight.naver.com/flights/domestic/GMP-CJU-20260504/?adult=2",
+        "kayak": "https://www.kayak.co.kr/flights/GMP-CJU/2026-05-04/2adults",
+        "skyscanner": "https://www.skyscanner.co.kr/transport/flights/gmp/cju/260504/?adultsv2=2",
+        "google": "https://www.google.com/travel/flights?q=Flights%20to%20CJU%20from%20GMP%20on%202026-05-04"
+      }
+    },
+    {
+      "origin": "GMP",
+      "destination": "CJU",
+      "depart": "2026-05-04",
+      "carrier": "ZE",
+      "intl": false,
+      "price": 26600,
+      "baseline": 83600,
+      "save": 57000,
+      "mylinkCode": "https://myrealt.rip/YoLq3b",
+      "mylink": "https://myrealt.rip/YoLq3b",
+      "external": {
+        "naver": "https://flight.naver.com/flights/domestic/GMP-CJU-20260504/?adult=2",
+        "kayak": "https://www.kayak.co.kr/flights/GMP-CJU/2026-05-04/2adults",
+        "skyscanner": "https://www.skyscanner.co.kr/transport/flights/gmp/cju/260504/?adultsv2=2",
+        "google": "https://www.google.com/travel/flights?q=Flights%20to%20CJU%20from%20GMP%20on%202026-05-04"
+      }
+    },
+    {
+      "origin": "GMP",
+      "destination": "CJU",
+      "depart": "2026-05-05",
+      "carrier": "LJ",
+      "intl": false,
+      "price": 23600,
+      "baseline": 83600,
+      "save": 60000,
+      "mylinkCode": "https://myrealt.rip/YraK50",
+      "mylink": "https://myrealt.rip/YraK50",
+      "external": {
+        "naver": "https://flight.naver.com/flights/domestic/GMP-CJU-20260505/?adult=2",
+        "kayak": "https://www.kayak.co.kr/flights/GMP-CJU/2026-05-05/2adults",
+        "skyscanner": "https://www.skyscanner.co.kr/transport/flights/gmp/cju/260505/?adultsv2=2",
+        "google": "https://www.google.com/travel/flights?q=Flights%20to%20CJU%20from%20GMP%20on%202026-05-05"
+      }
+    },
+    {
+      "origin": "GMP",
+      "destination": "CJU",
+      "depart": "2026-05-05",
+      "carrier": "ZE",
+      "intl": false,
+      "price": 23600,
+      "baseline": 83600,
+      "save": 60000,
+      "mylinkCode": "https://myrealt.rip/Yvpd95",
+      "mylink": "https://myrealt.rip/Yvpd95",
+      "external": {
+        "naver": "https://flight.naver.com/flights/domestic/GMP-CJU-20260505/?adult=2",
+        "kayak": "https://www.kayak.co.kr/flights/GMP-CJU/2026-05-05/2adults",
+        "skyscanner": "https://www.skyscanner.co.kr/transport/flights/gmp/cju/260505/?adultsv2=2",
+        "google": "https://www.google.com/travel/flights?q=Flights%20to%20CJU%20from%20GMP%20on%202026-05-05"
+      }
+    }
+  ]
+}
