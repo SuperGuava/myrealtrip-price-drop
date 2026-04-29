@@ -1,0 +1,22 @@
+{
+  "checkedAt": "2026-04-30T07:47:37+09:00",
+  "funnel": {
+    "joins": 4,
+    "clicks": 0,
+    "payments": 0
+  },
+  "savings": {
+    "airfareTotal": 342700,
+    "lowpriceCount": 6
+  },
+  "inventory": {
+    "flights": 2,
+    "stays": 3,
+    "experiences": 9,
+    "total": 14
+  },
+  "cta": {
+    "telegramJoinUrl": "https://t.me/superguava_9_bot",
+    "emailJoin": "ninefirebar@gmail.com"
+  }
+}
