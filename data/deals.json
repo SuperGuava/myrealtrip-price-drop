@@ -173,5 +173,15 @@
     "rejected": 0,
     "rejections": [],
     "mode": "include_new_seed"
+  },
+  "lastSweepAt": "2026-04-30 05:51 KST",
+  "lastSweepRunId": "mb-20260430T0551-osaka-sweep-meta-fix",
+  "lastSweepMeta": {
+    "source": "mangobingsu-myrealtrip",
+    "received": 6,
+    "emitted": 0,
+    "rejected": 0,
+    "rejections": [],
+    "mode": "new_lows_only"
   }
 }
