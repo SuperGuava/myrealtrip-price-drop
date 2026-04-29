@@ -89,7 +89,7 @@ const cta = src.affiliateUrl || src.url;
   - Mon (1) / Fri (5) → `japan_themepark` (도쿄 디즈니, USJ)
   - Tue (2) / Sat (6) → `southeast_asia_iconic` (다낭 바나힐, 방콕 디너크루즈)
   - Wed (3)         → `japan_citypass` (오사카 주유패스, 도쿄 스카이트리)
-  - Thu (4) / Sun (0) → `jeju_family_outdoor` (서귀포잠수함, 헬로키티아일랜드, 제주 레일바이크) ← NEW (국내·가족 페르소나)
+  - Thu (4) / Sun (0) → `korea_family_iconic` ← 풀 7개로 확장 (제주 서귀포잠수함·헬로키티·레일바이크 + 서울 롯데월드 어드벤처·N타워·롯데월드 아쿠아리움 + 용인 에버랜드). sampling 4 가 매일 다른 조합 노출.
 - 레지스트리: `notes/curated_standard_skus.json` — gid + naverQuery 로 표준 SKU 만 큐레이션.
 
 ### 결정적 랜덤 샘플링 (NEW)
