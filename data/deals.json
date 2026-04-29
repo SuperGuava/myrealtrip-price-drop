@@ -1,10 +1,18 @@
 {
-  "date": "2026-04-29",
-  "updatedAt": "2026-04-29 22:20 KST",
+  "date": "2026-04-30",
+  "updatedAt": "2026-04-30 05:25 KST",
+  "runId": "2026-04-29-osaka-family-001",
+  "theme": {
+    "title": "오사카 가족여행 오늘의 가격하락",
+    "subtitle": "아이랑 가기 좋은 티켓/패스 중심",
+    "city": "오사카",
+    "persona": "family-with-kids"
+  },
   "metrics": {
-    "joins": 4,
+    "joins": 0,
     "clicks": 0,
-    "payments": 0
+    "payments": 0,
+    "discoveredCount": 1
   },
   "deals": [
     {
@@ -16,13 +24,31 @@
       "source": "mangobingsu-myrealtrip",
       "sourceId": "50211",
       "reviewScore": 4.8,
-      "lowType": "new_low"
+      "lowType": "new_low",
+      "label": "오늘의 가격하락",
+      "evidence": {
+        "priceSource": "myrealtrip-partner-api",
+        "checkedAt": "2026-04-29T22:30:00+09:00",
+        "reason": "저장된 이전 최저가 93,000원 대비 현재 82,000원"
+      },
+      "tags": [
+        "오사카",
+        "가족",
+        "입장권",
+        "즉시확정"
+      ],
+      "display": {
+        "badge": "오늘의 가격하락",
+        "why": "아이 동반 첫 오사카 일정에서 구매 의도가 높은 대표 티켓"
+      }
     }
   ],
   "meta": {
     "source": "mangobingsu-myrealtrip",
     "received": 1,
     "emitted": 1,
-    "mode": "include_new_seed"
+    "rejected": 0,
+    "rejections": [],
+    "mode": "new_lows_only"
   }
 }
