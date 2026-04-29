@@ -60,7 +60,7 @@
       document.getElementById('updatedAt').textContent = '마지막 업데이트 ' + (data.updatedAt || data.lastSweepAt || '확인 중');
       const root = document.getElementById('deals');
       root.innerHTML = deals.length ? deals.map(d => {
-        const was = Number.isFinite(Number(d.previousPrice)) ? `<span class="was">${money(d.previousPrice)}</span>` : '';
+        const was = (d.lowType === 'new_low' && typeof d.previousPrice === 'number' && d.previousPrice > 0) ? `<span class="was">${money(d.previousPrice)}</span>` : '';
         const why = d.display?.why ? `<div class="why">${esc(d.display.why)}</div>` : '';
         const reason = d.evidence?.reason ? `<div class="evidence">근거: ${esc(d.evidence.reason)}</div>` : '';
         const tags = Array.isArray(d.tags) && d.tags.length ? `<div class="tags">${d.tags.map(t => `<span>${esc(t)}</span>`).join('')}</div>` : '';
