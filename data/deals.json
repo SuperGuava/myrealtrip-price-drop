@@ -39,6 +39,12 @@
       "display": {
         "badge": "오늘의 가격하락",
         "why": "오사카 가족여행 핵심 입장권 — 다른 OTA 비교 베이스라인"
+      },
+      "priceComparison": {
+        "checkedAt": "2026-04-30T06:27:27+09:00",
+        "query": "오사카 유니버설 스튜디오 재팬 1일권",
+        "sources": [],
+        "verdict": null
       }
     }
   ],
@@ -49,5 +55,17 @@
     "rejected": 0,
     "rejections": [],
     "mode": "include_new_seed"
+  },
+  "lastComparisonSweep": {
+    "checkedAt": "2026-04-30T06:27:29+09:00",
+    "summary": [
+      {
+        "i": 0,
+        "title": "오사카 유니버설 스튜디오 재팬 1일권",
+        "mrt": 82000,
+        "cheapestOther": null,
+        "sourceCount": 0
+      }
+    ]
   }
 }
