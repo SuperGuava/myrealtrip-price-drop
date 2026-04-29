@@ -41,7 +41,7 @@
         "why": "오사카 가족여행 핵심 입장권 — 다른 OTA 비교 베이스라인"
       },
       "priceComparison": {
-        "checkedAt": "2026-04-30T06:29:56+09:00",
+        "checkedAt": "2026-04-30T06:30:44+09:00",
         "query": "오사카 유니버설 스튜디오 재팬 1일권",
         "sources": [
           {
@@ -57,13 +57,6 @@
             "currency": "KRW",
             "url": "https://pkgtour.naver.com/brandmall/hanatour",
             "snippet": "[입장권][일본] 오사카 유니버셜 스튜디오 재팬 입장권 (1일권/1.5일권/2일권) 82,000원 예약가능당일여행노쇼핑 하나투어 브랜드관 네이버페이포인트 4,920원"
-          },
-          {
-            "seller": "마이리얼트립",
-            "price": 93300,
-            "currency": "KRW",
-            "url": "http://www.myrealtrip.com/",
-            "snippet": "[B 시즌] (만 12-64세) 오사카 유니버셜 스튜디오 재팬 1일권 93,300원 배송비 무료 리뷰 88 마이리얼트립"
           },
           {
             "seller": "투어비스",
@@ -98,14 +91,14 @@
     "mode": "include_new_seed"
   },
   "lastComparisonSweep": {
-    "checkedAt": "2026-04-30T06:29:58+09:00",
+    "checkedAt": "2026-04-30T06:30:46+09:00",
     "summary": [
       {
         "i": 0,
         "title": "오사카 유니버설 스튜디오 재팬 1일권",
         "mrt": 82000,
         "cheapestOther": 82000,
-        "sourceCount": 5
+        "sourceCount": 4
       }
     ]
   }
