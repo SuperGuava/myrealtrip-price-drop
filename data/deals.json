@@ -41,10 +41,51 @@
         "why": "오사카 가족여행 핵심 입장권 — 다른 OTA 비교 베이스라인"
       },
       "priceComparison": {
-        "checkedAt": "2026-04-30T06:28:44+09:00",
+        "checkedAt": "2026-04-30T06:29:56+09:00",
         "query": "오사카 유니버설 스튜디오 재팬 1일권",
-        "sources": [],
-        "verdict": null
+        "sources": [
+          {
+            "seller": "와그",
+            "price": 82000,
+            "currency": "KRW",
+            "url": "https://pkgtour.naver.com/list?destination=JPOSA0078&includeCategories=TKPS,GDTR&productType=TKPS,GDTR&departureDate=2026.05.01.%2C2027.05.01.&defaultTNCode=TN1&adultCnt=1&nxKeyword=%EC%98%A4%EC%82%AC%EC%B9%B4%20%EC%9C%A0%EB%8B%88%EB%B2%84%EC%84%A4%20%EC%8A%A4%ED%8A%9C%EB%94%94%EC%98%A4%20%EC%9E%AC%ED%8C%AC%201%EC%9D%BC%EA%B6%8C&reqChannel=search&openAc=1",
+            "snippet": "여행지 선택 출발기간 선택 유니버설 스튜디오 재팬오사카 역사 박물관오사카 텐만궁오사카성오사카주택박물관아베노 하루카스소라니와 온천 오사카베이타워 최대 6% 적립 오사카 유니버셜 스튜디오 재팬 입장권 82,000원 예약가능당일여행노쇼핑 와그 브랜드관 네이버페이 플러스포인트 4,920원 상품 바로가기 최대 6% 적립 [최대 50000원 상당 혜택] 유니버설 스튜디오 재팬 1일권 + 닌텐도 확약권 "
+          },
+          {
+            "seller": "하나투어",
+            "price": 82000,
+            "currency": "KRW",
+            "url": "https://pkgtour.naver.com/brandmall/hanatour",
+            "snippet": "[입장권][일본] 오사카 유니버셜 스튜디오 재팬 입장권 (1일권/1.5일권/2일권) 82,000원 예약가능당일여행노쇼핑 하나투어 브랜드관 네이버페이포인트 4,920원"
+          },
+          {
+            "seller": "마이리얼트립",
+            "price": 93300,
+            "currency": "KRW",
+            "url": "http://www.myrealtrip.com/",
+            "snippet": "[B 시즌] (만 12-64세) 오사카 유니버셜 스튜디오 재팬 1일권 93,300원 배송비 무료 리뷰 88 마이리얼트립"
+          },
+          {
+            "seller": "투어비스",
+            "price": 95000,
+            "currency": "KRW",
+            "url": "https://pkgtour.naver.com/brandmall/tourvis",
+            "snippet": "[최대 50000원 상당 혜택] 유니버설 스튜디오 재팬 1일권 + 닌텐도 확약권 하루카 리무진 중 선택 95,000원 예약가능당일여행노쇼핑 투어비스 브랜드관 네이버페이포인트 5,700원"
+          },
+          {
+            "seller": "쿠팡",
+            "price": 159900,
+            "currency": "KRW",
+            "url": "https://link.coupang.com/re/PCSNAVERMALLLOGO",
+            "snippet": "[오사카] 슈퍼 닌텐도 월드 입장 확약권 + 유니버설 스튜디오 재팬 1일권 + 간사이 조이패스 159,900원 배송비 무료 쿠팡"
+          }
+        ],
+        "verdict": {
+          "mrtIsCheapest": false,
+          "overpayPct": 0,
+          "cheapestOther": 82000,
+          "deltaWon": 0
+        }
       }
     }
   ],
@@ -57,14 +98,14 @@
     "mode": "include_new_seed"
   },
   "lastComparisonSweep": {
-    "checkedAt": "2026-04-30T06:28:46+09:00",
+    "checkedAt": "2026-04-30T06:29:58+09:00",
     "summary": [
       {
         "i": 0,
         "title": "오사카 유니버설 스튜디오 재팬 1일권",
         "mrt": 82000,
-        "cheapestOther": null,
-        "sourceCount": 0
+        "cheapestOther": 82000,
+        "sourceCount": 5
       }
     ]
   }
