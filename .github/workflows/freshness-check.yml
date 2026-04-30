@@ -1,0 +1,27 @@
+name: Price-Drop Freshness Check
+
+on:
+  schedule:
+    # Every 2 hours. This is a watchdog only; it does not mutate data.
+    - cron: '17 */2 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  freshness:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate public feed schema
+        run: node scripts/validate-public-feeds.js
+      - name: Check committed JSON freshness
+        run: node scripts/check-freshness.js --source=local
+      - name: Check GitHub Pages JSON freshness
+        run: node scripts/check-freshness.js --source=pages
