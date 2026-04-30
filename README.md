@@ -1,15 +1,37 @@
 # Mango Travel Price Drop landing MVP
 
-매일 업데이트되는 신저가 랜딩페이지 초안.
+GitHub Pages prototype for the Mango/MyRealTrip price-drop experiment.
 
-## 파일
-- `index.html`: 정적 랜딩페이지
-- `data/deals.json`: 표시 데이터
-- `scripts/update-deals.js`: 일일 업데이트 훅(현재 샘플 유지, 데이터 소스 연결 지점 포함)
-- `.github/workflows/daily-update.yml`: 매일 08:00 KST 업데이트 예시
+Live page: https://superguava.github.io/myrealtrip-price-drop/
 
-## 배포
-정적 호스팅(Vercel/Netlify/Cloudflare Pages/GitHub Pages)에 `projects/lowprice-landing`을 루트로 배포하면 됩니다.
+## Current operating model
+
+The public page is a static `index.html` that fetches JSON files from `data/`:
+
+- `data/deals.json`: curated MyRealTrip comparison SKUs and OTA comparison evidence
+- `data/airfare_lowprice.json`: airfare low-price cards
+- `data/team_metrics.json`: funnel, savings, inventory, and CTA metrics
+
+As of 2026-05-01, this repo does **not** contain a GitHub Actions workflow.
+Data refreshes are published by the MangoBingsu/Durian n8n + Mango local/ops pipeline as direct commits to this repository.
+
+## Files
+
+- `index.html`: static landing page
+- `data/deals.json`: current MyRealTrip comparison payload
+- `data/airfare_lowprice.json`: airfare low-price feed
+- `data/team_metrics.json`: team/funnel feed
+- `scripts/update-deals.js`: legacy CSV updater kept for reference only
+- `OPERATIONS.md`: operating notes and current refresh mechanism
+
+## Important caution
+
+Do not wire `scripts/update-deals.js` into automation without updating it first.
+It is a legacy CSV updater and can overwrite the richer MangoBingsu protocol fields currently used by the page.
+
+## Deployment
+
+GitHub Pages serves the repository root from `main`.
 
 ## Domain caution
 

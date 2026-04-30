@@ -1,50 +1,66 @@
 # Mango Travel Price Drop 운영 메모
 
-## v1 운영 방식: 수동 데이터 → 자동 랜딩 반영
+## 현재 운영 방식 — 2026-05-01
 
-1. `data/deals.csv`에 오늘의 신저가를 입력한다.
-2. `node scripts/update-deals.js` 실행.
-3. `data/deals.json`이 갱신된다.
-4. 정적 호스팅이 `index.html` + `data/deals.json`을 배포한다.
+현재 `SuperGuava/myrealtrip-price-drop`에는 GitHub Actions cron이 없다.
+따라서 과거 문서의 “매일 08:00 KST GitHub Actions 자동 갱신” 문구는 더 이상 정본이 아니다.
 
-## 배포 추천
+현재 데이터 갱신은 다음 흐름으로 운영한다.
 
-- 가장 빠름: Netlify Drop 또는 Cloudflare Pages에 `projects/lowprice-landing` 폴더 연결
-- GitHub 연동 시: 매일 08:00 KST GitHub Actions로 JSON 갱신 가능
-- 도메인: `Mango Travel Price Drop` DNS를 배포 서비스로 연결
+1. 망고빙수 Collector / pricewatch가 MyRealTrip 후보와 가격 비교 데이터를 만든다.
+2. 두리안 n8n 또는 망고 로컬/ops 파이프라인이 `data/*.json`을 갱신한다.
+3. `SuperGuava/myrealtrip-price-drop` main에 직접 commit/push된다.
+4. GitHub Pages가 정적 `index.html` + `data/*.json`을 제공한다.
 
-## 다음 확장
+현재 공개 페이지가 읽는 주요 피드:
 
-- 클릭 집계: 링크를 `/go?id=...` 형태로 바꾸고 로그 저장
-- 합류 집계: 이메일/카카오/텔레그램 알림 신청 폼 연결
-- 결제 집계: 제휴 링크 또는 자체 결제 이벤트 연결
-- 자동 탐지: CSV 입력부를 쇼핑 API/크롤러 출력으로 교체
+- `data/deals.json`
+- `data/airfare_lowprice.json`
+- `data/team_metrics.json`
 
+## GitHub Actions 상태
 
-## 현재 배포 상태 — 2026-04-29
+- `.github/workflows/` 없음.
+- 이 repo 자체에는 매일 08:00 KST 자동 workflow가 설치되어 있지 않다.
+- GitHub Actions를 도입하려면 기존 `scripts/update-deals.js`를 그대로 쓰면 안 된다.
 
-- GitHub repo: https://github.com/SuperGuava/myrealtrip-price-drop
-- GitHub Pages source: `main` branch `/`
-- Custom domain: 사용 안 함. GitHub Pages 기본 URL 사용
-- 주의: 현재 GitHub OAuth token에 `workflow` scope가 없어 `.github/workflows/daily-update.yml`는 원격 repo에 올리지 않았다. 대신 v1은 로컬/수동 CSV 갱신 후 `scripts/deploy-github-pages.sh`로 반영한다.
+## Legacy updater caution
 
-## v1 수동 배포
+`scripts/update-deals.js`는 초기 CSV 기반 MVP용 레거시 스크립트다.
+현재 `deals.json`의 `theme`, `metrics.discoveredCount`, `priceComparison`, `evidence`, `display`, `tags`, `lastComparisonSweep` 같은 필드를 보존하지 못한다.
 
-```bash
-cd ~/.openclaw/workspace/projects/lowprice-landing
-node scripts/update-deals.js
-./scripts/deploy-github-pages.sh
-```
+따라서 이 스크립트를 cron/GitHub Actions에 바로 연결하면 현재 페이지 품질을 되돌릴 수 있다.
+자동화를 추가하려면 아래 중 하나를 먼저 해야 한다.
 
-## DNS 연결 필요 없음
+1. MangoBingsu/Durian n8n을 정본 갱신 경로로 유지한다.
+2. 새 workflow는 `data/*.json` freshness check만 수행한다.
+3. 새 updater를 만들 경우 현재 MangoBingsu protocol v1 schema를 보존한다.
 
-현재 v1은 GitHub Pages 기본 URL로 운영한다.
+## 사이트가 비어 보일 때 확인 순서
 
-Apex 도메인용 A 레코드:
-- `185.199.108.153`
-- `185.199.109.153`
-- `185.199.110.153`
-- `185.199.111.153`
+정적 HTML fetch/readability 결과는 JavaScript를 실행하지 않으므로 `업데이트 확인 중…`, `자몽 피드 확인 중…`, `팀 지표 확인 중…`만 보일 수 있다.
+이것만으로 데이터 fetch 실패라고 판단하지 않는다.
 
-www 서브도메인용 CNAME:
-- `www` → `SuperGuava.github.io`
+확인 순서:
+
+1. `https://superguava.github.io/myrealtrip-price-drop/data/deals.json` 200 여부
+2. `data/airfare_lowprice.json` 200 여부
+3. `data/team_metrics.json` 200 여부
+4. 실제 브라우저/Playwright 렌더링에서 카드가 표시되는지
+5. 브라우저 console/network error 여부
+
+## 다음 자동화 후보
+
+### A. Staleness monitor
+
+GitHub Actions 또는 외부 cron으로 `data/*.json`의 `checkedAt`/`updatedAt`이 오래됐는지만 확인한다.
+쓰기 권한 없이도 가능하고, 현재 schema를 훼손하지 않는다.
+
+### B. Durian n8n publisher
+
+망고빙수/두리안 라인을 정본 publisher로 유지한다.
+토큰은 n8n credential 또는 GitHub secret으로만 보관하고, repo/로그/Telegram에는 원문을 남기지 않는다.
+
+### C. Schema-preserving updater
+
+GitHub Actions를 도입하려면 `scripts/update-deals.js`를 폐기하거나 v1 schema 보존형으로 다시 작성한다.
