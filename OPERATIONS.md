@@ -23,6 +23,8 @@
 - `.github/workflows/` 없음.
 - 이 repo 자체에는 매일 08:00 KST 자동 workflow가 설치되어 있지 않다.
 - GitHub Actions를 도입하려면 기존 `scripts/update-deals.js`를 그대로 쓰면 안 된다.
+- 보조 Actions 설계는 `docs/actions-auxiliary-role.md`를 따른다.
+- workflow 예시는 `docs/freshness-check-workflow.example.yml`에 있다.
 
 ## Legacy updater caution
 
@@ -48,6 +50,18 @@
 3. `data/team_metrics.json` 200 여부
 4. 실제 브라우저/Playwright 렌더링에서 카드가 표시되는지
 5. 브라우저 console/network error 여부
+
+## 안정화 체크 명령
+
+Publisher pre/post guard:
+
+```bash
+node scripts/validate-public-feeds.js
+node scripts/check-freshness.js --source=local
+node scripts/check-freshness.js --source=pages
+```
+
+상세 runbook: `docs/durian-publisher-stabilization.md`
 
 ## 다음 자동화 후보
 
