@@ -40,7 +40,7 @@
         "why": "오사카·도쿄 자유여행 필수 패스"
       },
       "priceComparison": {
-        "checkedAt": "2026-05-02T00:33:11+09:00",
+        "checkedAt": "2026-05-02T06:33:11+09:00",
         "query": "오사카 주유패스 1일권",
         "sources": [
           {
@@ -48,7 +48,7 @@
             "price": 31000,
             "currency": "KRW",
             "url": "https://klook.com/",
-            "snippet": "오사카 주유패스 1일권, 2일권 31,000원 4.7 (1.9만) 찜 7 클룩"
+            "snippet": "오사카 주유패스 1일권, 2일권 31,000원 4.7 (1.9만) 찜 8 클룩"
           },
           {
             "seller": "와그",
@@ -106,15 +106,15 @@
         "why": "오사카·도쿄 자유여행 필수 패스"
       },
       "priceComparison": {
-        "checkedAt": "2026-05-02T00:33:19+09:00",
+        "checkedAt": "2026-05-02T06:33:20+09:00",
         "query": "도쿄 스카이트리 입장권 스미다 수족관",
         "sources": [
           {
             "seller": "하나투어",
-            "price": 23091,
+            "price": 23429,
             "currency": "KRW",
             "url": "https://www.hanatour.com/?utm_source=naver&utm_medium=cpc&utm_campaign=naver_shopping",
-            "snippet": "[즉시확정][일본] 도쿄 스미다 수족관 입장권 티켓 아쿠아리움 스카이트리 23,091원 배송비 무료 하나투어 네이버페이"
+            "snippet": "[즉시확정][일본] 도쿄 스미다 수족관 입장권 티켓 아쿠아리움 스카이트리 23,429원 배송비 무료 하나투어 네이버페이"
           },
           {
             "seller": "와그",
@@ -126,9 +126,9 @@
         ],
         "verdict": {
           "mrtIsCheapest": false,
-          "overpayPct": 33,
-          "cheapestOther": 23091,
-          "deltaWon": 11187
+          "overpayPct": 32,
+          "cheapestOther": 23429,
+          "deltaWon": 10849
         }
       }
     }
@@ -142,7 +142,7 @@
     "mode": "include_new_seed"
   },
   "lastComparisonSweep": {
-    "checkedAt": "2026-05-02T00:33:21+09:00",
+    "checkedAt": "2026-05-02T06:33:22+09:00",
     "summary": [
       {
         "i": 0,
@@ -155,7 +155,7 @@
         "i": 1,
         "title": "도쿄 스카이트리 전망대 & 스미다 수족관 입장권",
         "mrt": 34278,
-        "cheapestOther": 23091,
+        "cheapestOther": 23429,
         "sourceCount": 2
       }
     ]
