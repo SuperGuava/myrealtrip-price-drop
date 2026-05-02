@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-05-01T05:44:52+09:00",
-  "totalSave": 342700,
-  "count": 6,
+  "checkedAt": "2026-05-03T05:53:30+09:00",
+  "totalSave": 396600,
+  "count": 7,
   "cards": [
     {
       "origin": "ICN",
@@ -109,6 +109,24 @@
         "kayak": "https://www.kayak.co.kr/flights/GMP-CJU/2026-05-05/2adults",
         "skyscanner": "https://www.skyscanner.co.kr/transport/flights/gmp/cju/260505/?adultsv2=2",
         "google": "https://www.google.com/travel/flights?q=Flights%20to%20CJU%20from%20GMP%20on%202026-05-05"
+      }
+    },
+    {
+      "origin": "GMP",
+      "destination": "CJU",
+      "depart": "2026-05-04",
+      "carrier": "OZ",
+      "intl": false,
+      "price": 29700,
+      "baseline": 83600,
+      "save": 53900,
+      "mylinkCode": "https://myrealt.rip/Z15584",
+      "mylink": "https://myrealt.rip/Z15584",
+      "external": {
+        "naver": "https://flight.naver.com/flights/domestic/GMP-CJU-20260504/?adult=2",
+        "kayak": "https://www.kayak.co.kr/flights/GMP-CJU/2026-05-04/2adults",
+        "skyscanner": "https://www.skyscanner.co.kr/transport/flights/gmp/cju/260504/?adultsv2=2",
+        "google": "https://www.google.com/travel/flights?q=Flights%20to%20CJU%20from%20GMP%20on%202026-05-04"
       }
     }
   ]
