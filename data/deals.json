@@ -1,7 +1,7 @@
 {
   "date": "2026-05-02",
-  "updatedAt": "2026-05-02 18:40 KST",
-  "runId": "mb-curated-20260502T1840-southeast_asia_iconic",
+  "updatedAt": "2026-05-02 18:54 KST",
+  "runId": "mb-curated-20260502T1854-southeast_asia_iconic",
   "theme": {
     "title": "동남아 아이콘 액티비티 — OTA 가격 비교",
     "subtitle": "다낭·방콕 자유여행 베스트셀러 단품 SKU",
@@ -19,7 +19,7 @@
       "shop": "마이리얼트립",
       "title": "다낭 바나힐 입장권 (QR 바로 입장 · 왕복 케이블카 포함)",
       "price": 32850,
-      "previousPrice": null,
+      "previousPrice": 32850,
       "url": "https://www.myrealtrip.com/offers/63983",
       "source": "mangobingsu-myrealtrip",
       "sourceId": "63983",
@@ -28,7 +28,7 @@
       "label": "첫 수집가",
       "evidence": {
         "priceSource": "myrealtrip-curated",
-        "checkedAt": "2026-05-02T18:40:18+09:00",
+        "checkedAt": "2026-05-02T18:54:25+09:00",
         "reason": "마이리얼트립 직접 판매 ₩32,850 (큐레이션 표준 상품)"
       },
       "tags": [
@@ -45,7 +45,7 @@
       "shop": "마이리얼트립",
       "title": "방콕 차오프라야 프린세스 선셋/디너크루즈",
       "price": 25000,
-      "previousPrice": null,
+      "previousPrice": 25000,
       "url": "https://experiences.myrealtrip.com/products/3509017",
       "source": "mangobingsu-myrealtrip",
       "sourceId": "3509017",
@@ -54,7 +54,7 @@
       "label": "첫 수집가",
       "evidence": {
         "priceSource": "myrealtrip-curated",
-        "checkedAt": "2026-05-02T18:40:18+09:00",
+        "checkedAt": "2026-05-02T18:54:25+09:00",
         "reason": "마이리얼트립 직접 판매 ₩25,000 (큐레이션 표준 상품)"
       },
       "tags": [
@@ -75,15 +75,5 @@
     "rejected": 0,
     "rejections": [],
     "mode": "include_new_seed"
-  },
-  "lastSweepAt": "2026-05-02 18:45 KST",
-  "lastSweepRunId": "watch-20260502T1845-싱가포르",
-  "lastSweepMeta": {
-    "source": "mangobingsu-myrealtrip",
-    "received": 8,
-    "emitted": 0,
-    "rejected": 0,
-    "rejections": [],
-    "mode": "new_lows_only"
   }
 }
