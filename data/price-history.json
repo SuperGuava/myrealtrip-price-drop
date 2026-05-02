@@ -581,5 +581,27 @@
     "lastSeenAt": "2026-05-02T09:39:47.755Z",
     "firstSeenAt": "2026-05-02T09:39:47.755Z",
     "reviewScore": 4
+  },
+  "mangobingsu-myrealtrip:63983": {
+    "source": "mangobingsu-myrealtrip",
+    "id": "63983",
+    "title": "다낭 바나힐 입장권 (QR 바로 입장 · 왕복 케이블카 포함)",
+    "url": "https://www.myrealtrip.com/offers/63983",
+    "minPrice": 32850,
+    "lastPrice": 32850,
+    "lastSeenAt": "2026-05-02T09:40:19.022Z",
+    "firstSeenAt": "2026-05-02T09:40:19.022Z",
+    "reviewScore": 4.8
+  },
+  "mangobingsu-myrealtrip:3509017": {
+    "source": "mangobingsu-myrealtrip",
+    "id": "3509017",
+    "title": "방콕 차오프라야 프린세스 선셋/디너크루즈",
+    "url": "https://experiences.myrealtrip.com/products/3509017",
+    "minPrice": 25000,
+    "lastPrice": 25000,
+    "lastSeenAt": "2026-05-02T09:40:19.022Z",
+    "firstSeenAt": "2026-05-02T09:40:19.022Z",
+    "reviewScore": 4.5
   }
 }
