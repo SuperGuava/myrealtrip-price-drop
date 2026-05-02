@@ -1,86 +1,51 @@
 {
   "date": "2026-05-02",
   "updatedAt": "2026-05-02 18:39 KST",
-  "runId": "watch-20260502T1839-오사카",
+  "runId": "watch-20260502T1839-방콕",
   "theme": {
-    "keyword": "오사카 가족",
-    "title": "오사카 가족여행 가격하락",
-    "subtitle": "아이랑 가기 좋은 티켓·투어",
-    "city": "오사카",
-    "persona": "family-with-kids"
+    "keyword": "방콕 커플",
+    "title": "방콕 커플여행 가격하락",
+    "subtitle": "로맨틱 디너·스파",
+    "city": "방콕",
+    "persona": "couple"
   },
   "metrics": {
     "joins": 0,
     "clicks": 0,
     "payments": 0,
-    "discoveredCount": 2
+    "discoveredCount": 1
   },
   "deals": [
     {
       "shop": "마이리얼트립",
-      "title": "[교토] 고급밴 단독 차량,자녀들의 체험학습 여행, 효도여행, 가족여행,친구들의 추억쌓기!",
-      "price": 110470,
-      "previousPrice": 110791,
-      "url": "https://myrealt.rip/Z5Nhed",
+      "title": "레테바 타이 마사지 LETEVA Thai Massage (방콕)",
+      "price": 15757,
+      "previousPrice": 15866,
+      "url": "https://myrealt.rip/Z5O4d6",
       "source": "mangobingsu-myrealtrip",
-      "sourceId": "3886418",
-      "reviewScore": 5,
+      "sourceId": "3530786",
+      "reviewScore": 0,
       "lowType": "new_low",
       "label": "오늘의 가격하락",
       "evidence": {
         "priceSource": "myrealtrip-partner-api",
-        "checkedAt": "2026-05-02T18:39:16+09:00",
-        "reason": "MRT TNA 검색 시점가 110,470원"
+        "checkedAt": "2026-05-02T18:39:33+09:00",
+        "reason": "MRT TNA 검색 시점가 15,757원"
       },
       "tags": [
-        "오사카",
-        "family-with-kids"
+        "방콕",
+        "couple"
       ],
       "display": {
         "badge": "오늘의 후보",
-        "why": "아이랑 가기 좋은 티켓·투어"
-      }
-    },
-    {
-      "shop": "마이리얼트립",
-      "title": "[나라/오사카]  고급밴 단독차량으로 즐기는  프라이빗 투어!! 일본 가족여행, 효도여행,",
-      "price": 115073,
-      "previousPrice": 115408,
-      "url": "https://myrealt.rip/Z5Nl24",
-      "source": "mangobingsu-myrealtrip",
-      "sourceId": "3886420",
-      "reviewScore": 5,
-      "lowType": "new_low",
-      "label": "오늘의 가격하락",
-      "evidence": {
-        "priceSource": "myrealtrip-partner-api",
-        "checkedAt": "2026-05-02T18:39:16+09:00",
-        "reason": "MRT TNA 검색 시점가 115,073원"
-      },
-      "tags": [
-        "오사카",
-        "family-with-kids"
-      ],
-      "display": {
-        "badge": "오늘의 후보",
-        "why": "아이랑 가기 좋은 티켓·투어"
+        "why": "로맨틱 디너·스파"
       }
     }
   ],
   "meta": {
     "source": "mangobingsu-myrealtrip",
     "received": 8,
-    "emitted": 2,
-    "rejected": 0,
-    "rejections": [],
-    "mode": "new_lows_only"
-  },
-  "lastSweepAt": "2026-05-02 18:39 KST",
-  "lastSweepRunId": "watch-20260502T1839-후쿠오카",
-  "lastSweepMeta": {
-    "source": "mangobingsu-myrealtrip",
-    "received": 1,
-    "emitted": 0,
+    "emitted": 1,
     "rejected": 0,
     "rejections": [],
     "mode": "new_lows_only"
