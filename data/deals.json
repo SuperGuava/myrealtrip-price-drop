@@ -40,7 +40,7 @@
         "why": "오사카·도쿄 자유여행 필수 패스"
       },
       "priceComparison": {
-        "checkedAt": "2026-05-02T12:33:13+09:00",
+        "checkedAt": "2026-05-02T18:33:20+09:00",
         "query": "오사카 주유패스 1일권",
         "sources": [
           {
@@ -106,7 +106,7 @@
         "why": "오사카·도쿄 자유여행 필수 패스"
       },
       "priceComparison": {
-        "checkedAt": "2026-05-02T12:33:21+09:00",
+        "checkedAt": "2026-05-02T18:33:30+09:00",
         "query": "도쿄 스카이트리 입장권 스미다 수족관",
         "sources": [
           {
@@ -142,7 +142,7 @@
     "mode": "include_new_seed"
   },
   "lastComparisonSweep": {
-    "checkedAt": "2026-05-02T12:33:23+09:00",
+    "checkedAt": "2026-05-02T18:33:32+09:00",
     "summary": [
       {
         "i": 0,
