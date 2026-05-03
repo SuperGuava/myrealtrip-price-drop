@@ -1,153 +1,131 @@
 {
-  "date": "2026-05-02",
-  "updatedAt": "2026-05-02 23:00 KST",
-  "runId": "mb-curated-20260502T2300-southeast_asia_iconic",
+  "date": "2026-05-03",
+  "updatedAt": "2026-05-03 23:00 KST",
+  "runId": "mb-curated-20260503T2300-korea_family_iconic",
   "theme": {
-    "title": "동남아 아이콘 액티비티 — OTA 가격 비교",
-    "subtitle": "다낭·방콕 자유여행 베스트셀러 단품 SKU",
-    "city": "동남아",
-    "persona": "couple-or-family"
+    "title": "국내 가족 여행 — OTA 가격 비교",
+    "subtitle": "제주·서울·용인 베스트셀러 입장권·체험 SKU",
+    "city": "국내",
+    "persona": "family-with-kids"
   },
   "metrics": {
     "joins": 0,
     "clicks": 0,
     "payments": 0,
-    "discoveredCount": 2
+    "discoveredCount": 4
   },
   "deals": [
     {
       "shop": "마이리얼트립",
-      "title": "다낭 바나힐 입장권 (QR 바로 입장 · 왕복 케이블카 포함)",
-      "price": 32850,
-      "previousPrice": 32850,
-      "url": "https://www.myrealtrip.com/offers/63983",
+      "title": "N서울타워 전망대 이용권",
+      "price": 14400,
+      "previousPrice": null,
+      "url": "https://www.myrealtrip.com/offers/146356",
       "source": "mangobingsu-myrealtrip",
-      "sourceId": "63983",
+      "sourceId": "146356",
+      "reviewScore": 4.6,
+      "lowType": "first_collected",
+      "label": "첫 수집가",
+      "evidence": {
+        "priceSource": "myrealtrip-curated",
+        "checkedAt": "2026-05-03T23:00:01+09:00",
+        "reason": "마이리얼트립 직접 판매 ₩14,400 (큐레이션 표준 상품)"
+      },
+      "tags": [
+        "서울",
+        "남산",
+        "전망대"
+      ],
+      "display": {
+        "badge": "오늘의 후보",
+        "why": "제주·서울·용인 베스트셀러 입장권·체험 SKU"
+      }
+    },
+    {
+      "shop": "마이리얼트립",
+      "title": "롯데월드 어드벤처 종합이용권",
+      "price": 38000,
+      "previousPrice": null,
+      "url": "https://www.myrealtrip.com/offers/70816",
+      "source": "mangobingsu-myrealtrip",
+      "sourceId": "70816",
       "reviewScore": 4.8,
       "lowType": "first_collected",
       "label": "첫 수집가",
       "evidence": {
         "priceSource": "myrealtrip-curated",
-        "checkedAt": "2026-05-02T23:00:01+09:00",
-        "reason": "마이리얼트립 직접 판매 ₩32,850 (큐레이션 표준 상품)"
+        "checkedAt": "2026-05-03T23:00:01+09:00",
+        "reason": "마이리얼트립 직접 판매 ₩38,000 (큐레이션 표준 상품)"
       },
       "tags": [
-        "다낭",
-        "바나힐",
-        "1일권"
+        "서울",
+        "잠실",
+        "테마파크"
       ],
       "display": {
         "badge": "오늘의 후보",
-        "why": "다낭·방콕 자유여행 베스트셀러 단품 SKU"
-      },
-      "priceComparison": {
-        "checkedAt": "2026-05-03T18:33:12+09:00",
-        "query": "다낭 바나힐 입장권 케이블카",
-        "sources": [
-          {
-            "seller": "투어비스",
-            "price": 43180,
-            "currency": "KRW",
-            "url": "https://pkgtour.naver.com/brandmall/tourvis",
-            "snippet": "다낭 공항 CIP 오키드 라운지 이용권 (다낭공항 출국장 내 위치) 43,180원 예약가능당일여행노쇼핑 투어비스 브랜드관 네이버페이포인트 2,590원"
-          }
-        ],
-        "verdict": {
-          "mrtIsCheapest": true,
-          "savingPct": 24,
-          "cheapestOther": 43180,
-          "deltaWon": 10330
-        }
+        "why": "제주·서울·용인 베스트셀러 입장권·체험 SKU"
       }
     },
     {
       "shop": "마이리얼트립",
-      "title": "방콕 차오프라야 프린세스 선셋/디너크루즈",
-      "price": 25000,
-      "previousPrice": 25000,
-      "url": "https://experiences.myrealtrip.com/products/3509017",
+      "title": "롯데월드 아쿠아리움 입장권",
+      "price": 22500,
+      "previousPrice": null,
+      "url": "https://www.myrealtrip.com/offers/84620",
       "source": "mangobingsu-myrealtrip",
-      "sourceId": "3509017",
-      "reviewScore": 4.5,
+      "sourceId": "84620",
+      "reviewScore": 4.8,
       "lowType": "first_collected",
       "label": "첫 수집가",
       "evidence": {
         "priceSource": "myrealtrip-curated",
-        "checkedAt": "2026-05-02T23:00:01+09:00",
-        "reason": "마이리얼트립 직접 판매 ₩25,000 (큐레이션 표준 상품)"
+        "checkedAt": "2026-05-03T23:00:01+09:00",
+        "reason": "마이리얼트립 직접 판매 ₩22,500 (큐레이션 표준 상품)"
       },
       "tags": [
-        "방콕",
-        "디너크루즈",
-        "야경"
+        "서울",
+        "잠실",
+        "아쿠아리움"
       ],
       "display": {
         "badge": "오늘의 후보",
-        "why": "다낭·방콕 자유여행 베스트셀러 단품 SKU"
+        "why": "제주·서울·용인 베스트셀러 입장권·체험 SKU"
+      }
+    },
+    {
+      "shop": "마이리얼트립",
+      "title": "제주 레일바이크 탑승권 (용눈이오름)",
+      "price": 11800,
+      "previousPrice": null,
+      "url": "https://www.myrealtrip.com/offers/6846",
+      "source": "mangobingsu-myrealtrip",
+      "sourceId": "6846",
+      "reviewScore": 4.4,
+      "lowType": "first_collected",
+      "label": "첫 수집가",
+      "evidence": {
+        "priceSource": "myrealtrip-curated",
+        "checkedAt": "2026-05-03T23:00:01+09:00",
+        "reason": "마이리얼트립 직접 판매 ₩11,800 (큐레이션 표준 상품)"
       },
-      "priceComparison": {
-        "checkedAt": "2026-05-03T18:33:21+09:00",
-        "query": "방콕 차오프라야 프린세스 디너크루즈",
-        "sources": [
-          {
-            "seller": "클룩",
-            "price": 38500,
-            "currency": "KRW",
-            "url": "https://klook.com/",
-            "snippet": "방콕 차오프라야 프린세스 디너 크루즈 38,500원 4.5 (1.7만) 찜 2 클룩"
-          },
-          {
-            "seller": "투어비스",
-            "price": 41970,
-            "currency": "KRW",
-            "url": "https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Ftourvisofficial&tr=nsls&nl-ts-pid=jQNTUsqpvCwsseE0x8Z-509772",
-            "snippet": "방콕 차오프라야 프린세스 선셋/디너 크루즈 41,970원 투어비스 스토어"
-          }
-        ],
-        "verdict": {
-          "mrtIsCheapest": true,
-          "savingPct": 35,
-          "cheapestOther": 38500,
-          "deltaWon": 13500
-        }
+      "tags": [
+        "제주",
+        "야외",
+        "레일바이크"
+      ],
+      "display": {
+        "badge": "오늘의 후보",
+        "why": "제주·서울·용인 베스트셀러 입장권·체험 SKU"
       }
     }
   ],
   "meta": {
     "source": "mangobingsu-myrealtrip",
-    "received": 2,
-    "emitted": 2,
+    "received": 4,
+    "emitted": 4,
     "rejected": 0,
     "rejections": [],
     "mode": "include_new_seed"
-  },
-  "lastSweepAt": "2026-05-03 20:17 KST",
-  "lastSweepRunId": "watch-20260503T2017-싱가포르",
-  "lastSweepMeta": {
-    "source": "mangobingsu-myrealtrip",
-    "received": 8,
-    "emitted": 0,
-    "rejected": 0,
-    "rejections": [],
-    "mode": "new_lows_only"
-  },
-  "lastComparisonSweep": {
-    "checkedAt": "2026-05-03T18:33:23+09:00",
-    "summary": [
-      {
-        "i": 0,
-        "title": "다낭 바나힐 입장권 (QR 바로 입장 · 왕복 케이블카 포함)",
-        "mrt": 32850,
-        "cheapestOther": 43180,
-        "sourceCount": 1
-      },
-      {
-        "i": 1,
-        "title": "방콕 차오프라야 프린세스 선셋/디너크루즈",
-        "mrt": 25000,
-        "cheapestOther": 38500,
-        "sourceCount": 2
-      }
-    ]
   }
 }
