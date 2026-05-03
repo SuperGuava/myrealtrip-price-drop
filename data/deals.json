@@ -129,10 +129,10 @@
     "mode": "include_new_seed"
   },
   "lastSweepAt": "2026-05-03 16:17 KST",
-  "lastSweepRunId": "watch-20260503T1617-도쿄",
+  "lastSweepRunId": "watch-20260503T1617-후쿠오카",
   "lastSweepMeta": {
     "source": "mangobingsu-myrealtrip",
-    "received": 8,
+    "received": 1,
     "emitted": 0,
     "rejected": 0,
     "rejections": [],
