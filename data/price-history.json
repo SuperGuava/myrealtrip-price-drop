@@ -614,5 +614,49 @@
     "lastSeenAt": "2026-05-02T15:17:42.992Z",
     "firstSeenAt": "2026-05-02T15:17:42.992Z",
     "reviewScore": 5
+  },
+  "mangobingsu-myrealtrip:146356": {
+    "source": "mangobingsu-myrealtrip",
+    "id": "146356",
+    "title": "N서울타워 전망대 이용권",
+    "url": "https://www.myrealtrip.com/offers/146356",
+    "minPrice": 14400,
+    "lastPrice": 14400,
+    "lastSeenAt": "2026-05-03T14:00:03.543Z",
+    "firstSeenAt": "2026-05-03T14:00:03.543Z",
+    "reviewScore": 4.6
+  },
+  "mangobingsu-myrealtrip:70816": {
+    "source": "mangobingsu-myrealtrip",
+    "id": "70816",
+    "title": "롯데월드 어드벤처 종합이용권",
+    "url": "https://www.myrealtrip.com/offers/70816",
+    "minPrice": 38000,
+    "lastPrice": 38000,
+    "lastSeenAt": "2026-05-03T14:00:03.543Z",
+    "firstSeenAt": "2026-05-03T14:00:03.543Z",
+    "reviewScore": 4.8
+  },
+  "mangobingsu-myrealtrip:84620": {
+    "source": "mangobingsu-myrealtrip",
+    "id": "84620",
+    "title": "롯데월드 아쿠아리움 입장권",
+    "url": "https://www.myrealtrip.com/offers/84620",
+    "minPrice": 22500,
+    "lastPrice": 22500,
+    "lastSeenAt": "2026-05-03T14:00:03.543Z",
+    "firstSeenAt": "2026-05-03T14:00:03.543Z",
+    "reviewScore": 4.8
+  },
+  "mangobingsu-myrealtrip:6846": {
+    "source": "mangobingsu-myrealtrip",
+    "id": "6846",
+    "title": "제주 레일바이크 탑승권 (용눈이오름)",
+    "url": "https://www.myrealtrip.com/offers/6846",
+    "minPrice": 11800,
+    "lastPrice": 11800,
+    "lastSeenAt": "2026-05-03T14:00:03.543Z",
+    "firstSeenAt": "2026-05-03T14:00:03.543Z",
+    "reviewScore": 4.4
   }
 }
