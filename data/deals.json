@@ -41,7 +41,7 @@
         "why": "다낭·방콕 자유여행 베스트셀러 단품 SKU"
       },
       "priceComparison": {
-        "checkedAt": "2026-05-03T12:33:11+09:00",
+        "checkedAt": "2026-05-03T18:33:12+09:00",
         "query": "다낭 바나힐 입장권 케이블카",
         "sources": [
           {
@@ -50,13 +50,6 @@
             "currency": "KRW",
             "url": "https://pkgtour.naver.com/brandmall/tourvis",
             "snippet": "다낭 공항 CIP 오키드 라운지 이용권 (다낭공항 출국장 내 위치) 43,180원 예약가능당일여행노쇼핑 투어비스 브랜드관 네이버페이포인트 2,590원"
-          },
-          {
-            "seller": "하나투어",
-            "price": 53000,
-            "currency": "KRW",
-            "url": "https://pkgtour.naver.com/list?destination=VNDAD0011&includeCategories=TKPS,GDTR&productType=TKPS&themeIds=T31%2CT76&departureDate=2026.05.04.%2C2027.05.04.&adultCnt=1&nxKeyword=%EB%8B%A4%EB%82%AD%20%EB%B0%94%EB%82%98%ED%9E%90%20%EC%9E%85%EC%9E%A5%EA%B6%8C%20%EC%BC%80%EC%9D%B4%EB%B8%94%EC%B9%B4&reqChannel=search&openAc=1",
-            "snippet": "여행지 선택 출발기간 선택 전체입장권시티,어트랙션패스라운지교통수단,패스공연,관람 최대 6% 적립 [입장권][다낭] 바나힐 입장권+왕복 케이블카 53,000원 예약가능당일여행노쇼핑 하나투어 브랜드관 네이버페이포인트 3,180원 상품 바로가기 최대 6% 적립 베트남 다낭 국제 공항 입국 출국 패스트트랙 11,464원 예약가능당일여행노쇼핑 투어비스 브랜드관 네이버페이포인트 687원 상품 바로가기 "
           }
         ],
         "verdict": {
@@ -93,7 +86,7 @@
         "why": "다낭·방콕 자유여행 베스트셀러 단품 SKU"
       },
       "priceComparison": {
-        "checkedAt": "2026-05-03T12:33:19+09:00",
+        "checkedAt": "2026-05-03T18:33:21+09:00",
         "query": "방콕 차오프라야 프린세스 디너크루즈",
         "sources": [
           {
@@ -107,7 +100,7 @@
             "seller": "투어비스",
             "price": 41970,
             "currency": "KRW",
-            "url": "https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Ftourvisofficial&tr=nsls&nl-ts-pid=jQkt%252BlqpvCwsseE0lsh-030053",
+            "url": "https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Ftourvisofficial&tr=nsls&nl-ts-pid=jQNTUsqpvCwsseE0x8Z-509772",
             "snippet": "방콕 차오프라야 프린세스 선셋/디너 크루즈 41,970원 투어비스 스토어"
           }
         ],
@@ -139,14 +132,14 @@
     "mode": "new_lows_only"
   },
   "lastComparisonSweep": {
-    "checkedAt": "2026-05-03T12:33:21+09:00",
+    "checkedAt": "2026-05-03T18:33:23+09:00",
     "summary": [
       {
         "i": 0,
         "title": "다낭 바나힐 입장권 (QR 바로 입장 · 왕복 케이블카 포함)",
         "mrt": 32850,
         "cheapestOther": 43180,
-        "sourceCount": 2
+        "sourceCount": 1
       },
       {
         "i": 1,
