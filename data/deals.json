@@ -123,10 +123,10 @@
     "mode": "include_new_seed"
   },
   "lastSweepAt": "2026-05-05 04:17 KST",
-  "lastSweepRunId": "watch-20260505T0417-후쿠오카",
+  "lastSweepRunId": "watch-20260505T0417-방콕",
   "lastSweepMeta": {
     "source": "mangobingsu-myrealtrip",
-    "received": 1,
+    "received": 8,
     "emitted": 0,
     "rejected": 0,
     "rejections": [],
