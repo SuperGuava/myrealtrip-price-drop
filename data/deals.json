@@ -1,264 +1,79 @@
 {
-  "date": "2026-05-03",
-  "updatedAt": "2026-05-03 23:00 KST",
-  "runId": "mb-curated-20260503T2300-korea_family_iconic",
+  "date": "2026-05-04",
+  "updatedAt": "2026-05-04 23:00 KST",
+  "runId": "mb-curated-20260504T2300-japan_themepark",
   "theme": {
-    "title": "국내 가족 여행 — OTA 가격 비교",
-    "subtitle": "제주·서울·용인 베스트셀러 입장권·체험 SKU",
-    "city": "국내",
+    "title": "일본 테마파크 1일권 — OTA 가격 비교",
+    "subtitle": "표준 입장권 위주, 다른 OTA 가격을 함께 노출",
+    "city": "일본",
     "persona": "family-with-kids"
   },
   "metrics": {
     "joins": 0,
     "clicks": 0,
     "payments": 0,
-    "discoveredCount": 4
+    "discoveredCount": 2
   },
   "deals": [
     {
       "shop": "마이리얼트립",
-      "title": "N서울타워 전망대 이용권",
-      "price": 14400,
-      "previousPrice": null,
-      "url": "https://www.myrealtrip.com/offers/146356",
+      "title": "도쿄 디즈니리조트 1데이 패스포트 (디즈니랜드 또는 디즈니씨)",
+      "price": 93320,
+      "previousPrice": 93320,
+      "url": "https://experiences.myrealtrip.com/products/3885807",
       "source": "mangobingsu-myrealtrip",
-      "sourceId": "146356",
-      "reviewScore": 4.6,
-      "lowType": "first_collected",
-      "label": "첫 수집가",
-      "evidence": {
-        "priceSource": "myrealtrip-curated",
-        "checkedAt": "2026-05-03T23:00:01+09:00",
-        "reason": "마이리얼트립 직접 판매 ₩14,400 (큐레이션 표준 상품)"
-      },
-      "tags": [
-        "서울",
-        "남산",
-        "전망대"
-      ],
-      "display": {
-        "badge": "오늘의 후보",
-        "why": "제주·서울·용인 베스트셀러 입장권·체험 SKU"
-      },
-      "priceComparison": {
-        "checkedAt": "2026-05-04T18:33:16+09:00",
-        "query": "N서울타워 전망대 입장권",
-        "sources": [
-          {
-            "seller": "케이케이데이",
-            "price": 20900,
-            "currency": "KRW",
-            "url": "http://www.kkday.com/",
-            "snippet": "N서울타워 전망대 입장권 20,900원 배송비 무료 리뷰 6,523 케이케이데이"
-          }
-        ],
-        "verdict": {
-          "mrtIsCheapest": true,
-          "savingPct": 31,
-          "cheapestOther": 20900,
-          "deltaWon": 6500
-        }
-      }
-    },
-    {
-      "shop": "마이리얼트립",
-      "title": "롯데월드 어드벤처 종합이용권",
-      "price": 38000,
-      "previousPrice": null,
-      "url": "https://www.myrealtrip.com/offers/70816",
-      "source": "mangobingsu-myrealtrip",
-      "sourceId": "70816",
+      "sourceId": "3885807",
       "reviewScore": 4.8,
       "lowType": "first_collected",
       "label": "첫 수집가",
       "evidence": {
         "priceSource": "myrealtrip-curated",
-        "checkedAt": "2026-05-03T23:00:01+09:00",
-        "reason": "마이리얼트립 직접 판매 ₩38,000 (큐레이션 표준 상품)"
+        "checkedAt": "2026-05-04T23:00:01+09:00",
+        "reason": "마이리얼트립 직접 판매 ₩93,320 (큐레이션 표준 상품)"
       },
       "tags": [
-        "서울",
-        "잠실",
-        "테마파크"
+        "도쿄",
+        "테마파크",
+        "1일권"
       ],
       "display": {
         "badge": "오늘의 후보",
-        "why": "제주·서울·용인 베스트셀러 입장권·체험 SKU"
-      },
-      "priceComparison": {
-        "checkedAt": "2026-05-04T18:33:25+09:00",
-        "query": "롯데월드 어드벤처 종합이용권",
-        "sources": [
-          {
-            "seller": "케이케이데이",
-            "price": 30300,
-            "currency": "KRW",
-            "url": "http://www.kkday.com/",
-            "snippet": "부산 롯데월드 어드벤처 종합이용권 (After3 오후권 1인권~) 30,300원 배송비 무료 리뷰 21찜 6 케이케이데이"
-          },
-          {
-            "seller": "클룩",
-            "price": 39500,
-            "currency": "KRW",
-            "url": "https://klook.com/",
-            "snippet": "[E티켓 사용] 부산 롯데월드 어드벤처 종합이용권 39,500원 4.6 (653) 찜 2 클룩"
-          }
-        ],
-        "verdict": {
-          "mrtIsCheapest": false,
-          "overpayPct": 20,
-          "cheapestOther": 30300,
-          "deltaWon": 7700
-        }
+        "why": "표준 입장권 위주, 다른 OTA 가격을 함께 노출"
       }
     },
     {
       "shop": "마이리얼트립",
-      "title": "롯데월드 아쿠아리움 입장권",
-      "price": 22500,
-      "previousPrice": null,
-      "url": "https://www.myrealtrip.com/offers/84620",
+      "title": "오사카 유니버설 스튜디오 재팬 입장권 (A시즌)",
+      "price": 60852,
+      "previousPrice": 60852,
+      "url": "https://experiences.myrealtrip.com/products/3426947",
       "source": "mangobingsu-myrealtrip",
-      "sourceId": "84620",
+      "sourceId": "3426947",
       "reviewScore": 4.8,
       "lowType": "first_collected",
       "label": "첫 수집가",
       "evidence": {
         "priceSource": "myrealtrip-curated",
-        "checkedAt": "2026-05-03T23:00:01+09:00",
-        "reason": "마이리얼트립 직접 판매 ₩22,500 (큐레이션 표준 상품)"
+        "checkedAt": "2026-05-04T23:00:01+09:00",
+        "reason": "마이리얼트립 직접 판매 ₩60,852 (큐레이션 표준 상품)"
       },
       "tags": [
-        "서울",
-        "잠실",
-        "아쿠아리움"
+        "오사카",
+        "테마파크",
+        "1일권"
       ],
       "display": {
         "badge": "오늘의 후보",
-        "why": "제주·서울·용인 베스트셀러 입장권·체험 SKU"
-      },
-      "priceComparison": {
-        "checkedAt": "2026-05-04T18:33:35+09:00",
-        "query": "롯데월드 아쿠아리움 입장권",
-        "sources": [
-          {
-            "seller": "쿠팡",
-            "price": 23000,
-            "currency": "KRW",
-            "url": "https://link.coupang.com/re/PCSNAVERMALLLOGO",
-            "snippet": "[서울 잠실] 롯데월드 아쿠아리움 입장권 23,000원 배송비 무료 쿠팡"
-          },
-          {
-            "seller": "클룩",
-            "price": 35000,
-            "currency": "KRW",
-            "url": "https://www.klook.com/ko/activity/56948-lotte-aquarium-seoul/",
-            "snippet": "롯데월드 아쿠아리움 aquarium.lotteworld.com›price 티켓요금 - 롯데월드 아쿠아리움 일반티켓 어른/청소년 · 35,000원 · (어른 : 만 18세 이상 / 청소년 : 만 13세 이상) 어린이/경로 · 31,000원 · (어린이 : 36개월 이상 ~ 만 12세 이하 / 경로 : 만 65세 이상) 롯데월드 아쿠아리움 롯데월드몰 엔터테인먼트동 지하1층, 아쿠아리움 소개, 프"
-          }
-        ],
-        "verdict": {
-          "mrtIsCheapest": true,
-          "savingPct": 2,
-          "cheapestOther": 23000,
-          "deltaWon": 500
-        }
-      }
-    },
-    {
-      "shop": "마이리얼트립",
-      "title": "제주 레일바이크 탑승권 (용눈이오름)",
-      "price": 11800,
-      "previousPrice": null,
-      "url": "https://www.myrealtrip.com/offers/6846",
-      "source": "mangobingsu-myrealtrip",
-      "sourceId": "6846",
-      "reviewScore": 4.4,
-      "lowType": "first_collected",
-      "label": "첫 수집가",
-      "evidence": {
-        "priceSource": "myrealtrip-curated",
-        "checkedAt": "2026-05-03T23:00:01+09:00",
-        "reason": "마이리얼트립 직접 판매 ₩11,800 (큐레이션 표준 상품)"
-      },
-      "tags": [
-        "제주",
-        "야외",
-        "레일바이크"
-      ],
-      "display": {
-        "badge": "오늘의 후보",
-        "why": "제주·서울·용인 베스트셀러 입장권·체험 SKU"
-      },
-      "priceComparison": {
-        "checkedAt": "2026-05-04T18:33:45+09:00",
-        "query": "제주 용눈이오름 레일바이크",
-        "sources": [
-          {
-            "seller": "G마켓",
-            "price": 10980,
-            "currency": "KRW",
-            "url": "http://www.gmarket.co.kr/index.asp?jaehuid=200003874",
-            "snippet": "제주 레일바이크 / 제주도 액티비티 이색체험 용눈이오름 10,980원 배송비 무료 4.44 (20) 찜 2 G마켓"
-          }
-        ],
-        "verdict": {
-          "mrtIsCheapest": false,
-          "overpayPct": 7,
-          "cheapestOther": 10980,
-          "deltaWon": 820
-        }
+        "why": "표준 입장권 위주, 다른 OTA 가격을 함께 노출"
       }
     }
   ],
   "meta": {
     "source": "mangobingsu-myrealtrip",
-    "received": 4,
-    "emitted": 4,
+    "received": 2,
+    "emitted": 2,
     "rejected": 0,
     "rejections": [],
     "mode": "include_new_seed"
-  },
-  "lastSweepAt": "2026-05-04 20:17 KST",
-  "lastSweepRunId": "watch-20260504T2017-싱가포르",
-  "lastSweepMeta": {
-    "source": "mangobingsu-myrealtrip",
-    "received": 8,
-    "emitted": 0,
-    "rejected": 0,
-    "rejections": [],
-    "mode": "new_lows_only"
-  },
-  "lastComparisonSweep": {
-    "checkedAt": "2026-05-04T18:33:47+09:00",
-    "summary": [
-      {
-        "i": 0,
-        "title": "N서울타워 전망대 이용권",
-        "mrt": 14400,
-        "cheapestOther": 20900,
-        "sourceCount": 1
-      },
-      {
-        "i": 1,
-        "title": "롯데월드 어드벤처 종합이용권",
-        "mrt": 38000,
-        "cheapestOther": 30300,
-        "sourceCount": 2
-      },
-      {
-        "i": 2,
-        "title": "롯데월드 아쿠아리움 입장권",
-        "mrt": 22500,
-        "cheapestOther": 23000,
-        "sourceCount": 2
-      },
-      {
-        "i": 3,
-        "title": "제주 레일바이크 탑승권 (용눈이오름)",
-        "mrt": 11800,
-        "cheapestOther": 10980,
-        "sourceCount": 1
-      }
-    ]
   }
 }
