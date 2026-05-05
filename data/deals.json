@@ -41,22 +41,22 @@
         "why": "다낭·방콕 자유여행 베스트셀러 단품 SKU"
       },
       "priceComparison": {
-        "checkedAt": "2026-05-06T00:33:16+09:00",
+        "checkedAt": "2026-05-06T06:33:14+09:00",
         "query": "다낭 바나힐 입장권 케이블카",
         "sources": [
           {
             "seller": "투어비스",
-            "price": 57685,
+            "price": 57674,
             "currency": "KRW",
             "url": "https://pkgtour.naver.com/brandmall/tourvis",
-            "snippet": "[즉시확정] 다낭 바나힐 입장권 왕복 케이블카 QR 바로입장 (+점심 저녁 뷔페 선택 가능) 57,685원 예약가능당일여행노쇼핑 투어비스 브랜드관 네이버페이포인트 3,460원"
+            "snippet": "[즉시확정] 다낭 바나힐 입장권 왕복 케이블카 QR 바로입장 (+점심 저녁 뷔페 선택 가능) 57,674원 예약가능당일여행노쇼핑 투어비스 브랜드관 네이버페이포인트 3,459원"
           }
         ],
         "verdict": {
           "mrtIsCheapest": true,
           "savingPct": 43,
-          "cheapestOther": 57685,
-          "deltaWon": 24835
+          "cheapestOther": 57674,
+          "deltaWon": 24824
         }
       }
     },
@@ -86,7 +86,7 @@
         "why": "다낭·방콕 자유여행 베스트셀러 단품 SKU"
       },
       "priceComparison": {
-        "checkedAt": "2026-05-06T00:33:26+09:00",
+        "checkedAt": "2026-05-06T06:33:24+09:00",
         "query": "방콕 차오프라야 프린세스 디너크루즈",
         "sources": [
           {
@@ -100,7 +100,7 @@
             "seller": "투어비스",
             "price": 41970,
             "currency": "KRW",
-            "url": "https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Ftourvisofficial&tr=nsls&nl-ts-pid=jQoLwsqX5mjzAQU4JuG-296925",
+            "url": "https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Ftourvisofficial&tr=nsls&nl-ts-pid=jQpAcwqX5mj5AYU5luR-297007",
             "snippet": "방콕 차오프라야 프린세스 선셋/디너 크루즈 41,970원 투어비스 스토어"
           }
         ],
@@ -132,13 +132,13 @@
     "mode": "new_lows_only"
   },
   "lastComparisonSweep": {
-    "checkedAt": "2026-05-06T00:33:28+09:00",
+    "checkedAt": "2026-05-06T06:33:26+09:00",
     "summary": [
       {
         "i": 0,
         "title": "다낭 바나힐 입장권 (QR 바로 입장 · 왕복 케이블카 포함)",
         "mrt": 32850,
-        "cheapestOther": 57685,
+        "cheapestOther": 57674,
         "sourceCount": 1
       },
       {
