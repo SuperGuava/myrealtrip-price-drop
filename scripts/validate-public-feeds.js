@@ -56,7 +56,12 @@ function validateDeals(errors) {
       assert(errors, isObject(pc), `${prefix}.priceComparison must be object`);
       assert(errors, typeof pc.checkedAt === 'string', `${prefix}.priceComparison.checkedAt required`);
       assert(errors, Array.isArray(pc.sources), `${prefix}.priceComparison.sources must be array`);
-      assert(errors, isObject(pc.verdict), `${prefix}.priceComparison.verdict required`);
+      const hasSources = Array.isArray(pc.sources) && pc.sources.length > 0;
+      if (hasSources) {
+        assert(errors, isObject(pc.verdict), `${prefix}.priceComparison.verdict required when sources are present`);
+      } else if (pc.verdict !== null && pc.verdict !== undefined) {
+        assert(errors, isObject(pc.verdict), `${prefix}.priceComparison.verdict must be object or null when sources are empty`);
+      }
       pc.sources?.forEach((src, j) => {
         assert(errors, typeof src.seller === 'string' && src.seller, `${prefix}.priceComparison.sources[${j}].seller required`);
         assert(errors, Number.isFinite(Number(src.price)) && Number(src.price) > 0, `${prefix}.priceComparison.sources[${j}].price must be positive`);
