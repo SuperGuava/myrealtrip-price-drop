@@ -74,5 +74,15 @@
     "rejected": 0,
     "rejections": [],
     "mode": "new_lows_only"
+  },
+  "lastSweepAt": "2026-05-07 08:17 KST",
+  "lastSweepRunId": "watch-20260507T0817-싱가포르",
+  "lastSweepMeta": {
+    "source": "mangobingsu-myrealtrip",
+    "received": 8,
+    "emitted": 0,
+    "rejected": 0,
+    "rejections": [],
+    "mode": "new_lows_only"
   }
 }
