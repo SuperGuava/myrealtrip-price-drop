@@ -38,6 +38,46 @@
       "display": {
         "badge": "오늘의 후보",
         "why": "오사카·도쿄 자유여행 필수 패스"
+      },
+      "priceComparison": {
+        "checkedAt": "2026-05-07T00:33:14+09:00",
+        "query": "오사카 주유패스 1일권",
+        "sources": [
+          {
+            "seller": "클룩",
+            "price": 31200,
+            "currency": "KRW",
+            "url": "https://klook.com/",
+            "snippet": "오사카 주유패스 1일권, 2일권 31,200원 4.7 (1.9만) 찜 7 클룩"
+          },
+          {
+            "seller": "와그",
+            "price": 31800,
+            "currency": "KRW",
+            "url": "https://pkgtour.naver.com/list?destination=JPOSA0081&includeCategories=TKPS,GDTR&productType=TKPS,GDTR&departureDate=2026.05.08.%2C2027.05.08.&defaultTNCode=TN15&adultCnt=1&nxKeyword=%EC%98%A4%EC%82%AC%EC%B9%B4%20%EC%A3%BC%EC%9C%A0%ED%8C%A8%EC%8A%A4%201%EC%9D%BC%EA%B6%8C&reqChannel=search&openAc=1",
+            "snippet": "여행지 선택 출발기간 선택 오사카성오사카 역사 박물관오사카주택박물관오사카성 공원오사카 시립미술관우메다 공중정원츠텐카쿠도톤보리 리버크루즈햅파이브 관람차덴노지 동물원 최대 6% 적립 오사카 주유패스 디지털 패스 (1일권 / 2일권) 31,800원 예약가능당일여행노쇼핑 와그 브랜드관 네이버페이 플러스포인트 1,908원 상품 바로가기 최대 6% 적립 오사카 주유패스 디지털패스 2일권 45,858원 "
+          },
+          {
+            "seller": "하나투어",
+            "price": 32100,
+            "currency": "KRW",
+            "url": "https://pkgtour.naver.com/brandmall/hanatour",
+            "snippet": "[패스][간사이] 일본 오사카 주유패스 (1일권/2일권) 32,100원 예약가능당일여행노쇼핑 하나투어 브랜드관 네이버페이포인트 1,926원"
+          },
+          {
+            "seller": "투어비스",
+            "price": 32564,
+            "currency": "KRW",
+            "url": "https://pkgtour.naver.com/brandmall/tourvis",
+            "snippet": "[즉시확정] 오사카 주유패스 1 2일권 (디지털권 교환불필요) 32,564원 예약가능당일여행노쇼핑 투어비스 브랜드관 네이버페이포인트 1,953원"
+          }
+        ],
+        "verdict": {
+          "mrtIsCheapest": true,
+          "savingPct": 1,
+          "cheapestOther": 31200,
+          "deltaWon": 189
+        }
       }
     },
     {
@@ -64,6 +104,32 @@
       "display": {
         "badge": "오늘의 후보",
         "why": "오사카·도쿄 자유여행 필수 패스"
+      },
+      "priceComparison": {
+        "checkedAt": "2026-05-07T00:33:24+09:00",
+        "query": "도쿄 스카이트리 입장권 스미다 수족관",
+        "sources": [
+          {
+            "seller": "하나투어",
+            "price": 23372,
+            "currency": "KRW",
+            "url": "https://www.hanatour.com/?utm_source=naver&utm_medium=cpc&utm_campaign=naver_shopping",
+            "snippet": "[즉시확정][일본] 도쿄 스미다 수족관 입장권 티켓 아쿠아리움 스카이트리 23,372원 배송비 무료 하나투어 네이버페이"
+          },
+          {
+            "seller": "와그",
+            "price": 35209,
+            "currency": "KRW",
+            "url": "https://pkgtour.naver.com/?reqChannel=clous&openAc=1",
+            "snippet": "여행지 선택 출발기간 선택 최대 6% 적립 [결합할인] 도쿄 스카이트리 전망대 입장권 + 스미다 수족관 입장권 35,209원 예약가능당일여행노쇼핑 와그 네이버페이 플러스포인트 2,112원 상품 바로가기"
+          }
+        ],
+        "verdict": {
+          "mrtIsCheapest": false,
+          "overpayPct": 32,
+          "cheapestOther": 23372,
+          "deltaWon": 10906
+        }
       }
     }
   ],
@@ -84,5 +150,24 @@
     "rejected": 0,
     "rejections": [],
     "mode": "new_lows_only"
+  },
+  "lastComparisonSweep": {
+    "checkedAt": "2026-05-07T00:33:26+09:00",
+    "summary": [
+      {
+        "i": 0,
+        "title": "오사카 주유패스 1일권 / 2일권 (디지털권/즉시사용)",
+        "mrt": 31011,
+        "cheapestOther": 31200,
+        "sourceCount": 4
+      },
+      {
+        "i": 1,
+        "title": "도쿄 스카이트리 전망대 & 스미다 수족관 입장권",
+        "mrt": 34278,
+        "cheapestOther": 23372,
+        "sourceCount": 2
+      }
+    ]
   }
 }
