@@ -1,12 +1,12 @@
 {
-  "date": "2026-05-05",
-  "updatedAt": "2026-05-05 23:00 KST",
-  "runId": "mb-curated-20260505T2300-southeast_asia_iconic",
+  "date": "2026-05-06",
+  "updatedAt": "2026-05-06 23:00 KST",
+  "runId": "mb-curated-20260506T2300-japan_citypass",
   "theme": {
-    "title": "동남아 아이콘 액티비티 — OTA 가격 비교",
-    "subtitle": "다낭·방콕 자유여행 베스트셀러 단품 SKU",
-    "city": "동남아",
-    "persona": "couple-or-family"
+    "title": "일본 시티패스 — OTA 가격 비교",
+    "subtitle": "오사카·도쿄 자유여행 필수 패스",
+    "city": "일본",
+    "persona": "free-traveler"
   },
   "metrics": {
     "joins": 0,
@@ -17,99 +17,53 @@
   "deals": [
     {
       "shop": "마이리얼트립",
-      "title": "다낭 바나힐 입장권 (QR 바로 입장 · 왕복 케이블카 포함)",
-      "price": 32850,
-      "previousPrice": 32850,
-      "url": "https://www.myrealtrip.com/offers/63983",
+      "title": "오사카 주유패스 1일권 / 2일권 (디지털권/즉시사용)",
+      "price": 31011,
+      "previousPrice": 31011,
+      "url": "https://experiences.myrealtrip.com/products/5869251",
       "source": "mangobingsu-myrealtrip",
-      "sourceId": "63983",
+      "sourceId": "5869251",
       "reviewScore": 4.8,
       "lowType": "first_collected",
       "label": "첫 수집가",
       "evidence": {
         "priceSource": "myrealtrip-curated",
-        "checkedAt": "2026-05-05T23:00:02+09:00",
-        "reason": "마이리얼트립 직접 판매 ₩32,850 (큐레이션 표준 상품)"
+        "checkedAt": "2026-05-06T23:00:02+09:00",
+        "reason": "마이리얼트립 직접 판매 ₩31,011 (큐레이션 표준 상품)"
       },
       "tags": [
-        "다낭",
-        "바나힐",
-        "1일권"
+        "오사카",
+        "시티패스"
       ],
       "display": {
         "badge": "오늘의 후보",
-        "why": "다낭·방콕 자유여행 베스트셀러 단품 SKU"
-      },
-      "priceComparison": {
-        "checkedAt": "2026-05-06T18:33:15+09:00",
-        "query": "다낭 바나힐 입장권 케이블카",
-        "sources": [
-          {
-            "seller": "투어비스",
-            "price": 57674,
-            "currency": "KRW",
-            "url": "https://pkgtour.naver.com/brandmall/tourvis",
-            "snippet": "[즉시확정] 다낭 바나힐 입장권 왕복 케이블카 QR 바로입장 (+점심 저녁 뷔페 선택 가능) 57,674원 예약가능당일여행노쇼핑 투어비스 브랜드관 네이버페이포인트 3,459원"
-          }
-        ],
-        "verdict": {
-          "mrtIsCheapest": true,
-          "savingPct": 43,
-          "cheapestOther": 57674,
-          "deltaWon": 24824
-        }
+        "why": "오사카·도쿄 자유여행 필수 패스"
       }
     },
     {
       "shop": "마이리얼트립",
-      "title": "방콕 차오프라야 프린세스 선셋/디너크루즈",
-      "price": 25000,
-      "previousPrice": 25000,
-      "url": "https://experiences.myrealtrip.com/products/3509017",
+      "title": "도쿄 스카이트리 전망대 & 스미다 수족관 입장권",
+      "price": 34278,
+      "previousPrice": 34278,
+      "url": "https://experiences.myrealtrip.com/products/5869283",
       "source": "mangobingsu-myrealtrip",
-      "sourceId": "3509017",
-      "reviewScore": 4.5,
+      "sourceId": "5869283",
+      "reviewScore": 3.4,
       "lowType": "first_collected",
       "label": "첫 수집가",
       "evidence": {
         "priceSource": "myrealtrip-curated",
-        "checkedAt": "2026-05-05T23:00:02+09:00",
-        "reason": "마이리얼트립 직접 판매 ₩25,000 (큐레이션 표준 상품)"
+        "checkedAt": "2026-05-06T23:00:02+09:00",
+        "reason": "마이리얼트립 직접 판매 ₩34,278 (큐레이션 표준 상품)"
       },
       "tags": [
-        "방콕",
-        "디너크루즈",
-        "야경"
+        "도쿄",
+        "전망대",
+        "수족관"
       ],
       "display": {
         "badge": "오늘의 후보",
-        "why": "다낭·방콕 자유여행 베스트셀러 단품 SKU"
-      },
-      "priceComparison": {
-        "checkedAt": "2026-05-06T18:33:24+09:00",
-        "query": "방콕 차오프라야 프린세스 디너크루즈",
-        "sources": [
-          {
-            "seller": "클룩",
-            "price": 38400,
-            "currency": "KRW",
-            "url": "https://klook.com/",
-            "snippet": "방콕 차오프라야 프린세스 디너 크루즈 38,400원 4.5 (1.7만) 찜 2 클룩"
-          },
-          {
-            "seller": "투어비스",
-            "price": 41970,
-            "currency": "KRW",
-            "url": "https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Ftourvisofficial&tr=nsls&nl-ts-pid=jQV63wqX5mjR%252B%252FU4E9C-477488",
-            "snippet": "방콕 차오프라야 프린세스 선셋/디너 크루즈 41,970원 투어비스 스토어"
-          }
-        ],
-        "verdict": {
-          "mrtIsCheapest": true,
-          "savingPct": 35,
-          "cheapestOther": 38400,
-          "deltaWon": 13400
-        }
+        "why": "오사카·도쿄 자유여행 필수 패스"
       }
     }
   ],
@@ -120,34 +74,5 @@
     "rejected": 0,
     "rejections": [],
     "mode": "include_new_seed"
-  },
-  "lastSweepAt": "2026-05-06 20:17 KST",
-  "lastSweepRunId": "watch-20260506T2017-싱가포르",
-  "lastSweepMeta": {
-    "source": "mangobingsu-myrealtrip",
-    "received": 8,
-    "emitted": 0,
-    "rejected": 0,
-    "rejections": [],
-    "mode": "new_lows_only"
-  },
-  "lastComparisonSweep": {
-    "checkedAt": "2026-05-06T18:33:26+09:00",
-    "summary": [
-      {
-        "i": 0,
-        "title": "다낭 바나힐 입장권 (QR 바로 입장 · 왕복 케이블카 포함)",
-        "mrt": 32850,
-        "cheapestOther": 57674,
-        "sourceCount": 1
-      },
-      {
-        "i": 1,
-        "title": "방콕 차오프라야 프린세스 선셋/디너크루즈",
-        "mrt": 25000,
-        "cheapestOther": 38400,
-        "sourceCount": 2
-      }
-    ]
   }
 }
