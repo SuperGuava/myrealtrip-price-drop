@@ -1,271 +1,78 @@
 {
-  "date": "2026-05-07",
-  "updatedAt": "2026-05-07 23:00 KST",
-  "runId": "mb-curated-20260507T2300-korea_family_iconic",
+  "date": "2026-05-08",
+  "updatedAt": "2026-05-08 04:17 KST",
+  "runId": "watch-20260508T0417-다낭",
   "theme": {
-    "title": "국내 가족 여행 — OTA 가격 비교",
-    "subtitle": "제주·서울·용인 베스트셀러 입장권·체험 SKU",
-    "city": "국내",
+    "keyword": "다낭 가족",
+    "title": "다낭 가족여행 가격하락",
+    "subtitle": "리조트·놀이공원",
+    "city": "다낭",
     "persona": "family-with-kids"
   },
   "metrics": {
     "joins": 0,
     "clicks": 0,
     "payments": 0,
-    "discoveredCount": 4
+    "discoveredCount": 2
   },
   "deals": [
     {
       "shop": "마이리얼트립",
-      "title": "롯데월드 아쿠아리움 입장권",
-      "price": 22500,
-      "previousPrice": 22500,
-      "url": "https://www.myrealtrip.com/offers/84620",
+      "title": "[다낭/가족캠프] 베트남 2026 KBSKids 가족캠프 만6세~만13세",
+      "price": 1019760,
+      "previousPrice": 1029350,
+      "url": "https://myrealt.rip/ZLFTe2",
       "source": "mangobingsu-myrealtrip",
-      "sourceId": "84620",
-      "reviewScore": 4.8,
-      "lowType": "first_collected",
-      "label": "첫 수집가",
+      "sourceId": "4909820",
+      "reviewScore": 0,
+      "lowType": "new_low",
+      "label": "오늘의 가격하락",
       "evidence": {
-        "priceSource": "myrealtrip-curated",
-        "checkedAt": "2026-05-07T23:00:01+09:00",
-        "reason": "마이리얼트립 직접 판매 ₩22,500 (큐레이션 표준 상품)"
+        "priceSource": "myrealtrip-partner-api",
+        "checkedAt": "2026-05-08T04:17:39+09:00",
+        "reason": "MRT TNA 검색 시점가 1,019,760원"
       },
       "tags": [
-        "서울",
-        "잠실",
-        "아쿠아리움"
+        "다낭",
+        "family-with-kids"
       ],
       "display": {
         "badge": "오늘의 후보",
-        "why": "제주·서울·용인 베스트셀러 입장권·체험 SKU"
-      },
-      "priceComparison": {
-        "checkedAt": "2026-05-08T00:33:14+09:00",
-        "query": "롯데월드 아쿠아리움 입장권",
-        "sources": [
-          {
-            "seller": "쿠팡",
-            "price": 23000,
-            "currency": "KRW",
-            "url": "https://link.coupang.com/re/PCSNAVERMALLLOGO",
-            "snippet": "[서울 잠실] 롯데월드 아쿠아리움 입장권 23,000원 배송비 무료 쿠팡"
-          },
-          {
-            "seller": "G마켓",
-            "price": 27230,
-            "currency": "KRW",
-            "url": "http://www.gmarket.co.kr/index.asp?jaehuid=200003874",
-            "snippet": "하노이 롯데월드 아쿠아리움 입장권 27,230원 배송비 무료 G마켓"
-          },
-          {
-            "seller": "클룩",
-            "price": 27500,
-            "currency": "KRW",
-            "url": "https://klook.com/",
-            "snippet": "롯데월드 아쿠아리움 입장권 27,500원 4.8 (331) 클룩"
-          }
-        ],
-        "verdict": {
-          "mrtIsCheapest": true,
-          "savingPct": 2,
-          "cheapestOther": 23000,
-          "deltaWon": 500
-        }
+        "why": "리조트·놀이공원"
       }
     },
     {
       "shop": "마이리얼트립",
-      "title": "제주 레일바이크 탑승권 (용눈이오름)",
-      "price": 11800,
-      "previousPrice": 11800,
-      "url": "https://www.myrealtrip.com/offers/6846",
+      "title": "후에 공항(HUI) 픽업",
+      "price": 26222,
+      "previousPrice": 26469,
+      "url": "https://myrealt.rip/ZLFZ1e",
       "source": "mangobingsu-myrealtrip",
-      "sourceId": "6846",
-      "reviewScore": 4.4,
-      "lowType": "first_collected",
-      "label": "첫 수집가",
+      "sourceId": "4236186",
+      "reviewScore": 0,
+      "lowType": "new_low",
+      "label": "오늘의 가격하락",
       "evidence": {
-        "priceSource": "myrealtrip-curated",
-        "checkedAt": "2026-05-07T23:00:01+09:00",
-        "reason": "마이리얼트립 직접 판매 ₩11,800 (큐레이션 표준 상품)"
+        "priceSource": "myrealtrip-partner-api",
+        "checkedAt": "2026-05-08T04:17:39+09:00",
+        "reason": "MRT TNA 검색 시점가 26,222원"
       },
       "tags": [
-        "제주",
-        "야외",
-        "레일바이크"
+        "다낭",
+        "family-with-kids"
       ],
       "display": {
         "badge": "오늘의 후보",
-        "why": "제주·서울·용인 베스트셀러 입장권·체험 SKU"
-      },
-      "priceComparison": {
-        "checkedAt": "2026-05-08T00:33:22+09:00",
-        "query": "제주 용눈이오름 레일바이크",
-        "sources": [
-          {
-            "seller": "G마켓",
-            "price": 11210,
-            "currency": "KRW",
-            "url": "http://www.gmarket.co.kr/index.asp?jaehuid=200003874",
-            "snippet": "제주 레일바이크 / 제주도 액티비티 이색체험 용눈이오름 11,210원 배송비 무료 4.44 (20) 찜 2 G마켓"
-          }
-        ],
-        "verdict": {
-          "mrtIsCheapest": false,
-          "overpayPct": 5,
-          "cheapestOther": 11210,
-          "deltaWon": 590
-        }
-      }
-    },
-    {
-      "shop": "마이리얼트립",
-      "title": "제주 서귀포잠수함 탑승권",
-      "price": 37500,
-      "previousPrice": null,
-      "url": "https://www.myrealtrip.com/offers/6693",
-      "source": "mangobingsu-myrealtrip",
-      "sourceId": "6693",
-      "reviewScore": 4.6,
-      "lowType": "first_collected",
-      "label": "첫 수집가",
-      "evidence": {
-        "priceSource": "myrealtrip-curated",
-        "checkedAt": "2026-05-07T23:00:01+09:00",
-        "reason": "마이리얼트립 직접 판매 ₩37,500 (큐레이션 표준 상품)"
-      },
-      "tags": [
-        "제주",
-        "서귀포",
-        "가족"
-      ],
-      "display": {
-        "badge": "오늘의 후보",
-        "why": "제주·서울·용인 베스트셀러 입장권·체험 SKU"
-      },
-      "priceComparison": {
-        "checkedAt": "2026-05-08T00:33:31+09:00",
-        "query": "서귀포잠수함 탑승권",
-        "sources": [
-          {
-            "seller": "11번가",
-            "price": 39000,
-            "currency": "KRW",
-            "url": "http://www.11st.co.kr/connect/Gateway.tmall?method=Xsite&tid=1000000550",
-            "snippet": "[제주]서귀포잠수함 탑승권/잠수함/새연교/서귀포/천지연/제주여행 39,000원 배송비 무료 리뷰 8 11번가"
-          },
-          {
-            "seller": "케이케이데이",
-            "price": 56000,
-            "currency": "KRW",
-            "url": "http://www.kkday.com/",
-            "snippet": "제주 서귀포잠수함 탑승권- 사전예약 필수 (아동권~) 56,000원 배송비 무료 리뷰 213 케이케이데이"
-          }
-        ],
-        "verdict": {
-          "mrtIsCheapest": true,
-          "savingPct": 4,
-          "cheapestOther": 39000,
-          "deltaWon": 1500
-        }
-      }
-    },
-    {
-      "shop": "마이리얼트립",
-      "title": "N서울타워 전망대 이용권",
-      "price": 14400,
-      "previousPrice": 14400,
-      "url": "https://www.myrealtrip.com/offers/146356",
-      "source": "mangobingsu-myrealtrip",
-      "sourceId": "146356",
-      "reviewScore": 4.6,
-      "lowType": "first_collected",
-      "label": "첫 수집가",
-      "evidence": {
-        "priceSource": "myrealtrip-curated",
-        "checkedAt": "2026-05-07T23:00:01+09:00",
-        "reason": "마이리얼트립 직접 판매 ₩14,400 (큐레이션 표준 상품)"
-      },
-      "tags": [
-        "서울",
-        "남산",
-        "전망대"
-      ],
-      "display": {
-        "badge": "오늘의 후보",
-        "why": "제주·서울·용인 베스트셀러 입장권·체험 SKU"
-      },
-      "priceComparison": {
-        "checkedAt": "2026-05-08T00:33:41+09:00",
-        "query": "N서울타워 전망대 입장권",
-        "sources": [
-          {
-            "seller": "케이케이데이",
-            "price": 20900,
-            "currency": "KRW",
-            "url": "http://www.kkday.com/",
-            "snippet": "N서울타워 전망대 입장권 20,900원 배송비 무료 리뷰 6,523 케이케이데이"
-          }
-        ],
-        "verdict": {
-          "mrtIsCheapest": true,
-          "savingPct": 31,
-          "cheapestOther": 20900,
-          "deltaWon": 6500
-        }
+        "why": "리조트·놀이공원"
       }
     }
   ],
   "meta": {
     "source": "mangobingsu-myrealtrip",
-    "received": 4,
-    "emitted": 4,
-    "rejected": 0,
-    "rejections": [],
-    "mode": "include_new_seed"
-  },
-  "lastSweepAt": "2026-05-08 04:17 KST",
-  "lastSweepRunId": "watch-20260508T0417-방콕",
-  "lastSweepMeta": {
-    "source": "mangobingsu-myrealtrip",
     "received": 8,
-    "emitted": 0,
+    "emitted": 2,
     "rejected": 0,
     "rejections": [],
     "mode": "new_lows_only"
-  },
-  "lastComparisonSweep": {
-    "checkedAt": "2026-05-08T00:33:43+09:00",
-    "summary": [
-      {
-        "i": 0,
-        "title": "롯데월드 아쿠아리움 입장권",
-        "mrt": 22500,
-        "cheapestOther": 23000,
-        "sourceCount": 3
-      },
-      {
-        "i": 1,
-        "title": "제주 레일바이크 탑승권 (용눈이오름)",
-        "mrt": 11800,
-        "cheapestOther": 11210,
-        "sourceCount": 1
-      },
-      {
-        "i": 2,
-        "title": "제주 서귀포잠수함 탑승권",
-        "mrt": 37500,
-        "cheapestOther": 39000,
-        "sourceCount": 2
-      },
-      {
-        "i": 3,
-        "title": "N서울타워 전망대 이용권",
-        "mrt": 14400,
-        "cheapestOther": 20900,
-        "sourceCount": 1
-      }
-    ]
   }
 }
