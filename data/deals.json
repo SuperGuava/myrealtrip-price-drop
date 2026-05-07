@@ -39,6 +39,39 @@
       "display": {
         "badge": "오늘의 후보",
         "why": "제주·서울·용인 베스트셀러 입장권·체험 SKU"
+      },
+      "priceComparison": {
+        "checkedAt": "2026-05-08T00:33:14+09:00",
+        "query": "롯데월드 아쿠아리움 입장권",
+        "sources": [
+          {
+            "seller": "쿠팡",
+            "price": 23000,
+            "currency": "KRW",
+            "url": "https://link.coupang.com/re/PCSNAVERMALLLOGO",
+            "snippet": "[서울 잠실] 롯데월드 아쿠아리움 입장권 23,000원 배송비 무료 쿠팡"
+          },
+          {
+            "seller": "G마켓",
+            "price": 27230,
+            "currency": "KRW",
+            "url": "http://www.gmarket.co.kr/index.asp?jaehuid=200003874",
+            "snippet": "하노이 롯데월드 아쿠아리움 입장권 27,230원 배송비 무료 G마켓"
+          },
+          {
+            "seller": "클룩",
+            "price": 27500,
+            "currency": "KRW",
+            "url": "https://klook.com/",
+            "snippet": "롯데월드 아쿠아리움 입장권 27,500원 4.8 (331) 클룩"
+          }
+        ],
+        "verdict": {
+          "mrtIsCheapest": true,
+          "savingPct": 2,
+          "cheapestOther": 23000,
+          "deltaWon": 500
+        }
       }
     },
     {
@@ -65,6 +98,25 @@
       "display": {
         "badge": "오늘의 후보",
         "why": "제주·서울·용인 베스트셀러 입장권·체험 SKU"
+      },
+      "priceComparison": {
+        "checkedAt": "2026-05-08T00:33:22+09:00",
+        "query": "제주 용눈이오름 레일바이크",
+        "sources": [
+          {
+            "seller": "G마켓",
+            "price": 11210,
+            "currency": "KRW",
+            "url": "http://www.gmarket.co.kr/index.asp?jaehuid=200003874",
+            "snippet": "제주 레일바이크 / 제주도 액티비티 이색체험 용눈이오름 11,210원 배송비 무료 4.44 (20) 찜 2 G마켓"
+          }
+        ],
+        "verdict": {
+          "mrtIsCheapest": false,
+          "overpayPct": 5,
+          "cheapestOther": 11210,
+          "deltaWon": 590
+        }
       }
     },
     {
@@ -91,6 +143,32 @@
       "display": {
         "badge": "오늘의 후보",
         "why": "제주·서울·용인 베스트셀러 입장권·체험 SKU"
+      },
+      "priceComparison": {
+        "checkedAt": "2026-05-08T00:33:31+09:00",
+        "query": "서귀포잠수함 탑승권",
+        "sources": [
+          {
+            "seller": "11번가",
+            "price": 39000,
+            "currency": "KRW",
+            "url": "http://www.11st.co.kr/connect/Gateway.tmall?method=Xsite&tid=1000000550",
+            "snippet": "[제주]서귀포잠수함 탑승권/잠수함/새연교/서귀포/천지연/제주여행 39,000원 배송비 무료 리뷰 8 11번가"
+          },
+          {
+            "seller": "케이케이데이",
+            "price": 56000,
+            "currency": "KRW",
+            "url": "http://www.kkday.com/",
+            "snippet": "제주 서귀포잠수함 탑승권- 사전예약 필수 (아동권~) 56,000원 배송비 무료 리뷰 213 케이케이데이"
+          }
+        ],
+        "verdict": {
+          "mrtIsCheapest": true,
+          "savingPct": 4,
+          "cheapestOther": 39000,
+          "deltaWon": 1500
+        }
       }
     },
     {
@@ -117,6 +195,25 @@
       "display": {
         "badge": "오늘의 후보",
         "why": "제주·서울·용인 베스트셀러 입장권·체험 SKU"
+      },
+      "priceComparison": {
+        "checkedAt": "2026-05-08T00:33:41+09:00",
+        "query": "N서울타워 전망대 입장권",
+        "sources": [
+          {
+            "seller": "케이케이데이",
+            "price": 20900,
+            "currency": "KRW",
+            "url": "http://www.kkday.com/",
+            "snippet": "N서울타워 전망대 입장권 20,900원 배송비 무료 리뷰 6,523 케이케이데이"
+          }
+        ],
+        "verdict": {
+          "mrtIsCheapest": true,
+          "savingPct": 31,
+          "cheapestOther": 20900,
+          "deltaWon": 6500
+        }
       }
     }
   ],
@@ -137,5 +234,38 @@
     "rejected": 0,
     "rejections": [],
     "mode": "new_lows_only"
+  },
+  "lastComparisonSweep": {
+    "checkedAt": "2026-05-08T00:33:43+09:00",
+    "summary": [
+      {
+        "i": 0,
+        "title": "롯데월드 아쿠아리움 입장권",
+        "mrt": 22500,
+        "cheapestOther": 23000,
+        "sourceCount": 3
+      },
+      {
+        "i": 1,
+        "title": "제주 레일바이크 탑승권 (용눈이오름)",
+        "mrt": 11800,
+        "cheapestOther": 11210,
+        "sourceCount": 1
+      },
+      {
+        "i": 2,
+        "title": "제주 서귀포잠수함 탑승권",
+        "mrt": 37500,
+        "cheapestOther": 39000,
+        "sourceCount": 2
+      },
+      {
+        "i": 3,
+        "title": "N서울타워 전망대 이용권",
+        "mrt": 14400,
+        "cheapestOther": 20900,
+        "sourceCount": 1
+      }
+    ]
   }
 }
