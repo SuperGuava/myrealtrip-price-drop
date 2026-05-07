@@ -39,6 +39,12 @@
       "display": {
         "badge": "오늘의 후보",
         "why": "리조트·놀이공원"
+      },
+      "priceComparison": {
+        "checkedAt": "2026-05-07T12:33:13+09:00",
+        "query": "베트남 2026 KBSKids 가족캠프 만6세~만13세",
+        "sources": [],
+        "verdict": null
       }
     },
     {
@@ -64,6 +70,12 @@
       "display": {
         "badge": "오늘의 후보",
         "why": "리조트·놀이공원"
+      },
+      "priceComparison": {
+        "checkedAt": "2026-05-07T12:33:24+09:00",
+        "query": "후에 공항 픽업",
+        "sources": [],
+        "verdict": null
       }
     }
   ],
@@ -84,5 +96,24 @@
     "rejected": 0,
     "rejections": [],
     "mode": "new_lows_only"
+  },
+  "lastComparisonSweep": {
+    "checkedAt": "2026-05-07T12:33:26+09:00",
+    "summary": [
+      {
+        "i": 0,
+        "title": "[다낭/가족캠프] 베트남 2026 KBSKids 가족캠프 만6세~만13세",
+        "mrt": 1029350,
+        "cheapestOther": null,
+        "sourceCount": 0
+      },
+      {
+        "i": 1,
+        "title": "후에 공항(HUI) 픽업",
+        "mrt": 26469,
+        "cheapestOther": null,
+        "sourceCount": 0
+      }
+    ]
   }
 }
