@@ -1,11 +1,12 @@
 {
-  "date": "2026-05-08",
-  "updatedAt": "2026-05-08 23:00 KST",
-  "runId": "mb-curated-20260508T2300-japan_themepark",
+  "date": "2026-05-09",
+  "updatedAt": "2026-05-09 04:17 KST",
+  "runId": "watch-20260509T0417-다낭",
   "theme": {
-    "title": "일본 테마파크 1일권 — OTA 가격 비교",
-    "subtitle": "표준 입장권 위주, 다른 OTA 가격을 함께 노출",
-    "city": "일본",
+    "keyword": "다낭 가족",
+    "title": "다낭 가족여행 가격하락",
+    "subtitle": "리조트·놀이공원",
+    "city": "다낭",
     "persona": "family-with-kids"
   },
   "metrics": {
@@ -17,131 +18,61 @@
   "deals": [
     {
       "shop": "마이리얼트립",
-      "title": "도쿄 디즈니리조트 1데이 패스포트 (디즈니랜드 또는 디즈니씨)",
-      "price": 93320,
-      "previousPrice": 93320,
-      "url": "https://experiences.myrealtrip.com/products/3885807",
+      "title": "[다낭/가족캠프] 베트남 2026 KBSKids 가족캠프 만6세~만13세",
+      "price": 1015560,
+      "previousPrice": 1019760,
+      "url": "https://myrealt.rip/ZNtU64",
       "source": "mangobingsu-myrealtrip",
-      "sourceId": "3885807",
-      "reviewScore": 4.8,
-      "lowType": "first_collected",
-      "label": "첫 수집가",
+      "sourceId": "4909820",
+      "reviewScore": 0,
+      "lowType": "new_low",
+      "label": "오늘의 가격하락",
       "evidence": {
-        "priceSource": "myrealtrip-curated",
-        "checkedAt": "2026-05-08T23:00:02+09:00",
-        "reason": "마이리얼트립 직접 판매 ₩93,320 (큐레이션 표준 상품)"
+        "priceSource": "myrealtrip-partner-api",
+        "checkedAt": "2026-05-09T04:17:38+09:00",
+        "reason": "MRT TNA 검색 시점가 1,015,560원"
       },
       "tags": [
-        "도쿄",
-        "테마파크",
-        "1일권"
+        "다낭",
+        "family-with-kids"
       ],
       "display": {
         "badge": "오늘의 후보",
-        "why": "표준 입장권 위주, 다른 OTA 가격을 함께 노출"
-      },
-      "priceComparison": {
-        "checkedAt": "2026-05-09T00:33:13+09:00",
-        "query": "도쿄 디즈니랜드 1일권",
-        "sources": [],
-        "verdict": null
+        "why": "리조트·놀이공원"
       }
     },
     {
       "shop": "마이리얼트립",
-      "title": "오사카 유니버설 스튜디오 재팬 입장권 (A시즌)",
-      "price": 60852,
-      "previousPrice": 60852,
-      "url": "https://experiences.myrealtrip.com/products/3426947",
+      "title": "후에 공항(HUI) 픽업",
+      "price": 26114,
+      "previousPrice": 26222,
+      "url": "https://myrealt.rip/ZNta34",
       "source": "mangobingsu-myrealtrip",
-      "sourceId": "3426947",
-      "reviewScore": 4.8,
-      "lowType": "first_collected",
-      "label": "첫 수집가",
+      "sourceId": "4236186",
+      "reviewScore": 0,
+      "lowType": "new_low",
+      "label": "오늘의 가격하락",
       "evidence": {
-        "priceSource": "myrealtrip-curated",
-        "checkedAt": "2026-05-08T23:00:02+09:00",
-        "reason": "마이리얼트립 직접 판매 ₩60,852 (큐레이션 표준 상품)"
+        "priceSource": "myrealtrip-partner-api",
+        "checkedAt": "2026-05-09T04:17:38+09:00",
+        "reason": "MRT TNA 검색 시점가 26,114원"
       },
       "tags": [
-        "오사카",
-        "테마파크",
-        "1일권"
+        "다낭",
+        "family-with-kids"
       ],
       "display": {
         "badge": "오늘의 후보",
-        "why": "표준 입장권 위주, 다른 OTA 가격을 함께 노출"
-      },
-      "priceComparison": {
-        "checkedAt": "2026-05-09T00:33:23+09:00",
-        "query": "오사카 유니버설 스튜디오 1일권",
-        "sources": [
-          {
-            "seller": "하나투어",
-            "price": 82000,
-            "currency": "KRW",
-            "url": "https://pkgtour.naver.com/brandmall/hanatour",
-            "snippet": "[입장권][일본] 오사카 유니버셜 스튜디오 재팬 입장권 (1일권/1.5일권/2일권) 82,000원 예약가능당일여행노쇼핑 하나투어 브랜드관 네이버페이포인트 4,920원"
-          },
-          {
-            "seller": "투어비스",
-            "price": 120900,
-            "currency": "KRW",
-            "url": "https://pkgtour.naver.com/brandmall/tourvis",
-            "snippet": "[즉시확정] 유니버셜 스튜디오 재팬 입장권 + 닌텐도확약권 + 간사이조이패스 번들 특가 120,900원 예약가능당일여행노쇼핑 투어비스 브랜드관 네이버페이포인트 7,254원"
-          },
-          {
-            "seller": "와그",
-            "price": 155800,
-            "currency": "KRW",
-            "url": "https://pkgtour.naver.com/brandmall/waug",
-            "snippet": "오사카 유니버셜 스튜디오 재팬 2일 티켓 155,800원 예약가능당일여행노쇼핑 와그 브랜드관 네이버페이 플러스포인트 9,348원"
-          }
-        ],
-        "verdict": {
-          "mrtIsCheapest": true,
-          "savingPct": 26,
-          "cheapestOther": 82000,
-          "deltaWon": 21148
-        }
+        "why": "리조트·놀이공원"
       }
     }
   ],
   "meta": {
     "source": "mangobingsu-myrealtrip",
-    "received": 2,
+    "received": 8,
     "emitted": 2,
     "rejected": 0,
     "rejections": [],
-    "mode": "include_new_seed"
-  },
-  "lastSweepAt": "2026-05-09 04:17 KST",
-  "lastSweepRunId": "watch-20260509T0417-방콕",
-  "lastSweepMeta": {
-    "source": "mangobingsu-myrealtrip",
-    "received": 8,
-    "emitted": 0,
-    "rejected": 0,
-    "rejections": [],
     "mode": "new_lows_only"
-  },
-  "lastComparisonSweep": {
-    "checkedAt": "2026-05-09T00:33:25+09:00",
-    "summary": [
-      {
-        "i": 0,
-        "title": "도쿄 디즈니리조트 1데이 패스포트 (디즈니랜드 또는 디즈니씨)",
-        "mrt": 93320,
-        "cheapestOther": null,
-        "sourceCount": 0
-      },
-      {
-        "i": 1,
-        "title": "오사카 유니버설 스튜디오 재팬 입장권 (A시즌)",
-        "mrt": 60852,
-        "cheapestOther": 82000,
-        "sourceCount": 3
-      }
-    ]
   }
 }
