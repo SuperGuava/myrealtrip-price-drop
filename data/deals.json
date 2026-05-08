@@ -41,7 +41,7 @@
         "why": "리조트·놀이공원"
       },
       "priceComparison": {
-        "checkedAt": "2026-05-08T12:33:13+09:00",
+        "checkedAt": "2026-05-08T18:33:12+09:00",
         "query": "베트남 2026 KBSKids 가족캠프 만6세~만13세",
         "sources": [],
         "verdict": null
@@ -72,7 +72,7 @@
         "why": "리조트·놀이공원"
       },
       "priceComparison": {
-        "checkedAt": "2026-05-08T12:33:23+09:00",
+        "checkedAt": "2026-05-08T18:33:21+09:00",
         "query": "후에 공항 픽업",
         "sources": [],
         "verdict": null
@@ -98,7 +98,7 @@
     "mode": "new_lows_only"
   },
   "lastComparisonSweep": {
-    "checkedAt": "2026-05-08T12:33:25+09:00",
+    "checkedAt": "2026-05-08T18:33:23+09:00",
     "summary": [
       {
         "i": 0,
