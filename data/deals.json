@@ -39,6 +39,12 @@
       "display": {
         "badge": "오늘의 후보",
         "why": "로맨틱 디너·스파"
+      },
+      "priceComparison": {
+        "checkedAt": "2026-05-09T12:33:12+09:00",
+        "query": "레테바 타이 마사지 LETEVA Thai Massage",
+        "sources": [],
+        "verdict": null
       }
     }
   ],
@@ -59,5 +65,17 @@
     "rejected": 0,
     "rejections": [],
     "mode": "new_lows_only"
+  },
+  "lastComparisonSweep": {
+    "checkedAt": "2026-05-09T12:33:14+09:00",
+    "summary": [
+      {
+        "i": 0,
+        "title": "레테바 타이 마사지 LETEVA Thai Massage (방콕)",
+        "mrt": 15715,
+        "cheapestOther": null,
+        "sourceCount": 0
+      }
+    ]
   }
 }
