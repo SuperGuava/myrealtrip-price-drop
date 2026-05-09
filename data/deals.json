@@ -41,7 +41,7 @@
         "why": "다낭·방콕 자유여행 베스트셀러 단품 SKU"
       },
       "priceComparison": {
-        "checkedAt": "2026-05-10T00:33:12+09:00",
+        "checkedAt": "2026-05-10T06:33:14+09:00",
         "query": "다낭 바나힐 입장권 케이블카",
         "sources": [
           {
@@ -53,10 +53,10 @@
           },
           {
             "seller": "투어비스",
-            "price": 57299,
+            "price": 57322,
             "currency": "KRW",
             "url": "https://pkgtour.naver.com/brandmall/tourvis",
-            "snippet": "[즉시확정] 다낭 바나힐 입장권 왕복 케이블카 QR 바로입장 (+점심 저녁 뷔페 선택 가능) 57,299원 예약가능당일여행노쇼핑 투어비스 브랜드관 네이버페이포인트 3,436원"
+            "snippet": "[즉시확정] 다낭 바나힐 입장권 왕복 케이블카 QR 바로입장 (+점심 저녁 뷔페 선택 가능) 57,322원 예약가능당일여행노쇼핑 투어비스 브랜드관 네이버페이포인트 3,439원"
           }
         ],
         "verdict": {
@@ -93,7 +93,7 @@
         "why": "다낭·방콕 자유여행 베스트셀러 단품 SKU"
       },
       "priceComparison": {
-        "checkedAt": "2026-05-10T00:33:22+09:00",
+        "checkedAt": "2026-05-10T06:33:23+09:00",
         "query": "방콕 차오프라야 프린세스 디너크루즈",
         "sources": [
           {
@@ -107,7 +107,7 @@
             "seller": "투어비스",
             "price": 41710,
             "currency": "KRW",
-            "url": "https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Ftourvisofficial&tr=nsls&nl-ts-pid=jQ9gYsqpvCwsseEX%252BUh-076467",
+            "url": "https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Ftourvisofficial&tr=nsls&nl-ts-pid=jQ%252BoclqpvCwsseE0Y5V-486386",
             "snippet": "방콕 차오프라야 프린세스 선셋/디너 크루즈 41,710원 투어비스 스토어"
           }
         ],
@@ -139,7 +139,7 @@
     "mode": "new_lows_only"
   },
   "lastComparisonSweep": {
-    "checkedAt": "2026-05-10T00:33:24+09:00",
+    "checkedAt": "2026-05-10T06:33:25+09:00",
     "summary": [
       {
         "i": 0,
