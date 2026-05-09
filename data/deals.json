@@ -1,81 +1,79 @@
 {
   "date": "2026-05-09",
-  "updatedAt": "2026-05-09 08:17 KST",
-  "runId": "watch-20260509T0817-방콕",
+  "updatedAt": "2026-05-09 23:00 KST",
+  "runId": "mb-curated-20260509T2300-southeast_asia_iconic",
   "theme": {
-    "keyword": "방콕 커플",
-    "title": "방콕 커플여행 가격하락",
-    "subtitle": "로맨틱 디너·스파",
-    "city": "방콕",
-    "persona": "couple"
+    "title": "동남아 아이콘 액티비티 — OTA 가격 비교",
+    "subtitle": "다낭·방콕 자유여행 베스트셀러 단품 SKU",
+    "city": "동남아",
+    "persona": "couple-or-family"
   },
   "metrics": {
     "joins": 0,
     "clicks": 0,
     "payments": 0,
-    "discoveredCount": 1
+    "discoveredCount": 2
   },
   "deals": [
     {
       "shop": "마이리얼트립",
-      "title": "레테바 타이 마사지 LETEVA Thai Massage (방콕)",
-      "price": 15715,
-      "previousPrice": 15757,
-      "url": "https://myrealt.rip/ZO3pc6",
+      "title": "다낭 바나힐 입장권 (QR 바로 입장 · 왕복 케이블카 포함)",
+      "price": 32850,
+      "previousPrice": 32850,
+      "url": "https://www.myrealtrip.com/offers/63983",
       "source": "mangobingsu-myrealtrip",
-      "sourceId": "3530786",
-      "reviewScore": 0,
-      "lowType": "new_low",
-      "label": "오늘의 가격하락",
+      "sourceId": "63983",
+      "reviewScore": 4.8,
+      "lowType": "first_collected",
+      "label": "첫 수집가",
       "evidence": {
-        "priceSource": "myrealtrip-partner-api",
-        "checkedAt": "2026-05-09T08:17:28+09:00",
-        "reason": "MRT TNA 검색 시점가 15,715원"
+        "priceSource": "myrealtrip-curated",
+        "checkedAt": "2026-05-09T23:00:01+09:00",
+        "reason": "마이리얼트립 직접 판매 ₩32,850 (큐레이션 표준 상품)"
       },
       "tags": [
-        "방콕",
-        "couple"
+        "다낭",
+        "바나힐",
+        "1일권"
       ],
       "display": {
         "badge": "오늘의 후보",
-        "why": "로맨틱 디너·스파"
+        "why": "다낭·방콕 자유여행 베스트셀러 단품 SKU"
+      }
+    },
+    {
+      "shop": "마이리얼트립",
+      "title": "방콕 차오프라야 프린세스 선셋/디너크루즈",
+      "price": 25000,
+      "previousPrice": 25000,
+      "url": "https://experiences.myrealtrip.com/products/3509017",
+      "source": "mangobingsu-myrealtrip",
+      "sourceId": "3509017",
+      "reviewScore": 4.5,
+      "lowType": "first_collected",
+      "label": "첫 수집가",
+      "evidence": {
+        "priceSource": "myrealtrip-curated",
+        "checkedAt": "2026-05-09T23:00:01+09:00",
+        "reason": "마이리얼트립 직접 판매 ₩25,000 (큐레이션 표준 상품)"
       },
-      "priceComparison": {
-        "checkedAt": "2026-05-09T18:33:14+09:00",
-        "query": "레테바 타이 마사지 LETEVA Thai Massage",
-        "sources": [],
-        "verdict": null
+      "tags": [
+        "방콕",
+        "디너크루즈",
+        "야경"
+      ],
+      "display": {
+        "badge": "오늘의 후보",
+        "why": "다낭·방콕 자유여행 베스트셀러 단품 SKU"
       }
     }
   ],
   "meta": {
     "source": "mangobingsu-myrealtrip",
-    "received": 8,
-    "emitted": 1,
+    "received": 2,
+    "emitted": 2,
     "rejected": 0,
     "rejections": [],
-    "mode": "new_lows_only"
-  },
-  "lastSweepAt": "2026-05-09 20:17 KST",
-  "lastSweepRunId": "watch-20260509T2017-싱가포르",
-  "lastSweepMeta": {
-    "source": "mangobingsu-myrealtrip",
-    "received": 8,
-    "emitted": 0,
-    "rejected": 0,
-    "rejections": [],
-    "mode": "new_lows_only"
-  },
-  "lastComparisonSweep": {
-    "checkedAt": "2026-05-09T18:33:16+09:00",
-    "summary": [
-      {
-        "i": 0,
-        "title": "레테바 타이 마사지 LETEVA Thai Massage (방콕)",
-        "mrt": 15715,
-        "cheapestOther": null,
-        "sourceCount": 0
-      }
-    ]
+    "mode": "include_new_seed"
   }
 }
