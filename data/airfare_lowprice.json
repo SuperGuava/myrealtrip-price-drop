@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-05-11T00:45:02+09:00",
-  "totalSave": 86000,
-  "count": 3,
+  "checkedAt": "2026-05-11T06:45:01+09:00",
+  "totalSave": 121600,
+  "count": 5,
   "cards": [
     {
       "origin": "ICN",
@@ -55,6 +55,42 @@
         "kayak": "https://www.kayak.co.kr/flights/ICN-KIX/2026-06-09/2adults",
         "skyscanner": "https://www.skyscanner.co.kr/transport/flights/icn/kix/260609/?adultsv2=2",
         "google": "https://www.google.com/travel/flights?q=Flights%20to%20KIX%20from%20ICN%20on%202026-06-09"
+      }
+    },
+    {
+      "origin": "GMP",
+      "destination": "CJU",
+      "depart": "2026-05-25",
+      "carrier": "7C",
+      "intl": false,
+      "price": 48000,
+      "baseline": 83600,
+      "save": 35600,
+      "mylinkCode": "https://myrealt.rip/ZVlm76",
+      "mylink": "https://myrealt.rip/ZVlm76",
+      "external": {
+        "naver": "https://flight.naver.com/flights/domestic/GMP-CJU-20260525/?adult=2",
+        "kayak": "https://www.kayak.co.kr/flights/GMP-CJU/2026-05-25/2adults",
+        "skyscanner": "https://www.skyscanner.co.kr/transport/flights/gmp/cju/260525/?adultsv2=2",
+        "google": "https://www.google.com/travel/flights?q=Flights%20to%20CJU%20from%20GMP%20on%202026-05-25"
+      }
+    },
+    {
+      "origin": "ICN",
+      "destination": "FUK",
+      "depart": "2026-06-09",
+      "carrier": "BX",
+      "intl": true,
+      "price": 112800,
+      "baseline": null,
+      "save": 0,
+      "mylinkCode": "https://myrealt.rip/ZVln94",
+      "mylink": "https://myrealt.rip/ZVln94",
+      "external": {
+        "naver": "https://flight.naver.com/flights/international/ICN-FUK-20260609/?adult=2",
+        "kayak": "https://www.kayak.co.kr/flights/ICN-FUK/2026-06-09/2adults",
+        "skyscanner": "https://www.skyscanner.co.kr/transport/flights/icn/fuk/260609/?adultsv2=2",
+        "google": "https://www.google.com/travel/flights?q=Flights%20to%20FUK%20from%20ICN%20on%202026-06-09"
       }
     }
   ]
