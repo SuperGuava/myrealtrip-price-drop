@@ -633,7 +633,7 @@
     "url": "https://www.myrealtrip.com/offers/70816",
     "minPrice": 38000,
     "lastPrice": 38000,
-    "lastSeenAt": "2026-05-03T14:00:03.543Z",
+    "lastSeenAt": "2026-05-10T14:00:02.927Z",
     "firstSeenAt": "2026-05-03T14:00:03.543Z",
     "reviewScore": 4.8
   },
@@ -655,7 +655,7 @@
     "url": "https://www.myrealtrip.com/offers/6846",
     "minPrice": 11800,
     "lastPrice": 11800,
-    "lastSeenAt": "2026-05-07T14:00:02.877Z",
+    "lastSeenAt": "2026-05-10T14:00:02.927Z",
     "firstSeenAt": "2026-05-03T14:00:03.543Z",
     "reviewScore": 4.4
   },
@@ -666,7 +666,7 @@
     "url": "https://www.myrealtrip.com/offers/6693",
     "minPrice": 37500,
     "lastPrice": 37500,
-    "lastSeenAt": "2026-05-07T14:00:02.877Z",
+    "lastSeenAt": "2026-05-10T14:00:02.927Z",
     "firstSeenAt": "2026-05-07T14:00:02.877Z",
     "reviewScore": 4.6
   },
@@ -680,5 +680,16 @@
     "lastSeenAt": "2026-05-10T11:17:11.222Z",
     "firstSeenAt": "2026-05-09T07:17:11.274Z",
     "reviewScore": 4.9
+  },
+  "mangobingsu-myrealtrip:158663": {
+    "source": "mangobingsu-myrealtrip",
+    "id": "158663",
+    "title": "제주 헬로키티아일랜드 입장권",
+    "url": "https://www.myrealtrip.com/offers/158663",
+    "minPrice": 11000,
+    "lastPrice": 11000,
+    "lastSeenAt": "2026-05-10T14:00:02.927Z",
+    "firstSeenAt": "2026-05-10T14:00:02.927Z",
+    "reviewScore": 4.6
   }
 }
