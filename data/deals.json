@@ -39,6 +39,32 @@
       "display": {
         "badge": "오늘의 후보",
         "why": "제주·서울·용인 베스트셀러 입장권·체험 SKU"
+      },
+      "priceComparison": {
+        "checkedAt": "2026-05-11T00:33:14+09:00",
+        "query": "서귀포잠수함 탑승권",
+        "sources": [
+          {
+            "seller": "11번가",
+            "price": 39000,
+            "currency": "KRW",
+            "url": "http://www.11st.co.kr/connect/Gateway.tmall?method=Xsite&tid=1000000550",
+            "snippet": "[제주]서귀포잠수함 탑승권/잠수함/새연교/서귀포/천지연/제주여행 39,000원 배송비 무료 리뷰 8 11번가"
+          },
+          {
+            "seller": "케이케이데이",
+            "price": 56000,
+            "currency": "KRW",
+            "url": "http://www.kkday.com/",
+            "snippet": "제주 서귀포잠수함 탑승권- 사전예약 필수 (아동권~) 56,000원 배송비 무료 리뷰 213 케이케이데이"
+          }
+        ],
+        "verdict": {
+          "mrtIsCheapest": true,
+          "savingPct": 4,
+          "cheapestOther": 39000,
+          "deltaWon": 1500
+        }
       }
     },
     {
@@ -65,6 +91,39 @@
       "display": {
         "badge": "오늘의 후보",
         "why": "제주·서울·용인 베스트셀러 입장권·체험 SKU"
+      },
+      "priceComparison": {
+        "checkedAt": "2026-05-11T00:33:23+09:00",
+        "query": "롯데월드 어드벤처 종합이용권",
+        "sources": [
+          {
+            "seller": "케이케이데이",
+            "price": 30300,
+            "currency": "KRW",
+            "url": "http://www.kkday.com/",
+            "snippet": "부산 롯데월드 어드벤처 종합이용권 (After3 오후권 1인권~) 30,300원 배송비 무료 리뷰 21찜 6 케이케이데이"
+          },
+          {
+            "seller": "쿠팡",
+            "price": 38500,
+            "currency": "KRW",
+            "url": "https://link.coupang.com/re/PCSNAVERMALLLOGO",
+            "snippet": "[서울 잠실] ★메이플아일랜드신규오픈★롯데월드 어드벤처 종합이용권 5월 38,500원 배송비 무료 쿠팡"
+          },
+          {
+            "seller": "클룩",
+            "price": 39500,
+            "currency": "KRW",
+            "url": "https://klook.com/",
+            "snippet": "[E티켓 사용] 부산 롯데월드 어드벤처 종합이용권 39,500원 4.6 (658) 찜 2 클룩"
+          }
+        ],
+        "verdict": {
+          "mrtIsCheapest": false,
+          "overpayPct": 20,
+          "cheapestOther": 30300,
+          "deltaWon": 7700
+        }
       }
     },
     {
@@ -91,6 +150,12 @@
       "display": {
         "badge": "오늘의 후보",
         "why": "제주·서울·용인 베스트셀러 입장권·체험 SKU"
+      },
+      "priceComparison": {
+        "checkedAt": "2026-05-11T00:33:32+09:00",
+        "query": "제주 헬로키티아일랜드 입장권",
+        "sources": [],
+        "verdict": null
       }
     },
     {
@@ -117,6 +182,25 @@
       "display": {
         "badge": "오늘의 후보",
         "why": "제주·서울·용인 베스트셀러 입장권·체험 SKU"
+      },
+      "priceComparison": {
+        "checkedAt": "2026-05-11T00:33:41+09:00",
+        "query": "제주 용눈이오름 레일바이크",
+        "sources": [
+          {
+            "seller": "G마켓",
+            "price": 11210,
+            "currency": "KRW",
+            "url": "http://www.gmarket.co.kr/index.asp?jaehuid=200003874",
+            "snippet": "제주 레일바이크 / 제주도 액티비티 이색체험 용눈이오름 11,210원 배송비 무료 4.44 (20) 찜 2 G마켓"
+          }
+        ],
+        "verdict": {
+          "mrtIsCheapest": false,
+          "overpayPct": 5,
+          "cheapestOther": 11210,
+          "deltaWon": 590
+        }
       }
     }
   ],
@@ -137,5 +221,38 @@
     "rejected": 0,
     "rejections": [],
     "mode": "new_lows_only"
+  },
+  "lastComparisonSweep": {
+    "checkedAt": "2026-05-11T00:33:43+09:00",
+    "summary": [
+      {
+        "i": 0,
+        "title": "제주 서귀포잠수함 탑승권",
+        "mrt": 37500,
+        "cheapestOther": 39000,
+        "sourceCount": 2
+      },
+      {
+        "i": 1,
+        "title": "롯데월드 어드벤처 종합이용권",
+        "mrt": 38000,
+        "cheapestOther": 30300,
+        "sourceCount": 3
+      },
+      {
+        "i": 2,
+        "title": "제주 헬로키티아일랜드 입장권",
+        "mrt": 11000,
+        "cheapestOther": null,
+        "sourceCount": 0
+      },
+      {
+        "i": 3,
+        "title": "제주 레일바이크 탑승권 (용눈이오름)",
+        "mrt": 11800,
+        "cheapestOther": 11210,
+        "sourceCount": 1
+      }
+    ]
   }
 }
