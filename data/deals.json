@@ -41,7 +41,7 @@
         "why": "표준 입장권 위주, 다른 OTA 가격을 함께 노출"
       },
       "priceComparison": {
-        "checkedAt": "2026-05-12T00:33:15+09:00",
+        "checkedAt": "2026-05-12T06:33:13+09:00",
         "query": "도쿄 디즈니랜드 1일권",
         "sources": [],
         "verdict": null
@@ -73,7 +73,7 @@
         "why": "표준 입장권 위주, 다른 OTA 가격을 함께 노출"
       },
       "priceComparison": {
-        "checkedAt": "2026-05-12T00:33:24+09:00",
+        "checkedAt": "2026-05-12T06:33:22+09:00",
         "query": "오사카 유니버설 스튜디오 1일권",
         "sources": [
           {
@@ -126,7 +126,7 @@
     "mode": "new_lows_only"
   },
   "lastComparisonSweep": {
-    "checkedAt": "2026-05-12T00:33:26+09:00",
+    "checkedAt": "2026-05-12T06:33:24+09:00",
     "summary": [
       {
         "i": 0,
