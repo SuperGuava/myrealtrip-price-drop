@@ -41,7 +41,7 @@
         "why": "제주·서울·용인 베스트셀러 입장권·체험 SKU"
       },
       "priceComparison": {
-        "checkedAt": "2026-05-11T12:33:15+09:00",
+        "checkedAt": "2026-05-11T18:33:13+09:00",
         "query": "서귀포잠수함 탑승권",
         "sources": [
           {
@@ -93,7 +93,7 @@
         "why": "제주·서울·용인 베스트셀러 입장권·체험 SKU"
       },
       "priceComparison": {
-        "checkedAt": "2026-05-11T12:33:24+09:00",
+        "checkedAt": "2026-05-11T18:33:23+09:00",
         "query": "롯데월드 어드벤처 종합이용권",
         "sources": [
           {
@@ -115,7 +115,7 @@
             "price": 39500,
             "currency": "KRW",
             "url": "https://klook.com/",
-            "snippet": "[E티켓 사용] 부산 롯데월드 어드벤처 종합이용권 39,500원 4.6 (658) 찜 2 클룩"
+            "snippet": "[E티켓 사용] 부산 롯데월드 어드벤처 종합이용권 39,500원 4.6 (660) 찜 2 클룩"
           }
         ],
         "verdict": {
@@ -152,7 +152,7 @@
         "why": "제주·서울·용인 베스트셀러 입장권·체험 SKU"
       },
       "priceComparison": {
-        "checkedAt": "2026-05-11T12:33:35+09:00",
+        "checkedAt": "2026-05-11T18:33:33+09:00",
         "query": "제주 헬로키티아일랜드 입장권",
         "sources": [],
         "verdict": null
@@ -184,7 +184,7 @@
         "why": "제주·서울·용인 베스트셀러 입장권·체험 SKU"
       },
       "priceComparison": {
-        "checkedAt": "2026-05-11T12:33:45+09:00",
+        "checkedAt": "2026-05-11T18:33:44+09:00",
         "query": "제주 용눈이오름 레일바이크",
         "sources": [
           {
@@ -223,7 +223,7 @@
     "mode": "new_lows_only"
   },
   "lastComparisonSweep": {
-    "checkedAt": "2026-05-11T12:33:47+09:00",
+    "checkedAt": "2026-05-11T18:33:46+09:00",
     "summary": [
       {
         "i": 0,
