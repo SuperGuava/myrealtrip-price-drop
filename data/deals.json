@@ -75,5 +75,15 @@
     "rejected": 0,
     "rejections": [],
     "mode": "include_new_seed"
+  },
+  "lastSweepAt": "2026-05-13 00:17 KST",
+  "lastSweepRunId": "watch-20260513T0017-제주",
+  "lastSweepMeta": {
+    "source": "mangobingsu-myrealtrip",
+    "received": 8,
+    "emitted": 0,
+    "rejected": 0,
+    "rejections": [],
+    "mode": "new_lows_only"
   }
 }
