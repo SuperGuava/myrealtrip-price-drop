@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-05-13T06:45:01+09:00",
-  "totalSave": 215100,
-  "count": 8,
+  "checkedAt": "2026-05-16T12:45:01+09:00",
+  "totalSave": 245700,
+  "count": 10,
   "cards": [
     {
       "origin": "ICN",
@@ -145,6 +145,42 @@
         "kayak": "https://www.kayak.co.kr/flights/ICN-NRT/2026-06-09/2adults",
         "skyscanner": "https://www.skyscanner.co.kr/transport/flights/icn/nrt/260609/?adultsv2=2",
         "google": "https://www.google.com/travel/flights?q=Flights%20to%20NRT%20from%20ICN%20on%202026-06-09"
+      }
+    },
+    {
+      "origin": "ICN",
+      "destination": "NRT",
+      "depart": "2026-06-16",
+      "carrier": "WE",
+      "intl": true,
+      "price": 141910,
+      "baseline": null,
+      "save": 0,
+      "mylinkCode": "https://myrealt.rip/Zi3J76",
+      "mylink": "https://myrealt.rip/Zi3J76",
+      "external": {
+        "naver": "https://flight.naver.com/flights/international/ICN-NRT-20260616/?adult=2",
+        "kayak": "https://www.kayak.co.kr/flights/ICN-NRT/2026-06-16/2adults",
+        "skyscanner": "https://www.skyscanner.co.kr/transport/flights/icn/nrt/260616/?adultsv2=2",
+        "google": "https://www.google.com/travel/flights?q=Flights%20to%20NRT%20from%20ICN%20on%202026-06-16"
+      }
+    },
+    {
+      "origin": "GMP",
+      "destination": "CJU",
+      "depart": "2026-06-01",
+      "carrier": "ZE",
+      "intl": false,
+      "price": 53000,
+      "baseline": 83600,
+      "save": 30600,
+      "mylinkCode": "https://myrealt.rip/Zl7Va5",
+      "mylink": "https://myrealt.rip/Zl7Va5",
+      "external": {
+        "naver": "https://flight.naver.com/flights/domestic/GMP-CJU-20260601/?adult=2",
+        "kayak": "https://www.kayak.co.kr/flights/GMP-CJU/2026-06-01/2adults",
+        "skyscanner": "https://www.skyscanner.co.kr/transport/flights/gmp/cju/260601/?adultsv2=2",
+        "google": "https://www.google.com/travel/flights?q=Flights%20to%20CJU%20from%20GMP%20on%202026-06-01"
       }
     }
   ]
