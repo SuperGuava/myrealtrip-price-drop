@@ -41,36 +41,22 @@
         "why": "다낭·방콕 자유여행 베스트셀러 단품 SKU"
       },
       "priceComparison": {
-        "checkedAt": "2026-05-17T18:33:12+09:00",
+        "checkedAt": "2026-05-23T06:33:12+09:00",
         "query": "다낭 바나힐 입장권 케이블카",
         "sources": [
           {
-            "seller": "클룩",
-            "price": 26800,
-            "currency": "KRW",
-            "url": "https://klook.com/",
-            "snippet": "다낭 썬월드 바나힐 입장권 & 케이블카 티켓 26,800원 4.6 (3.4만) 찜 15 클룩"
-          },
-          {
-            "seller": "하나투어",
-            "price": 34000,
-            "currency": "KRW",
-            "url": "https://pkgtour.naver.com/brandmall/hanatour",
-            "snippet": "[입장권] 인천공항 라운지 이용권 (마티나, 스카이허브) 34,000원 예약가능당일여행노쇼핑 하나투어 브랜드관 네이버페이포인트 2,040원"
-          },
-          {
             "seller": "투어비스",
-            "price": 46024,
+            "price": 56924,
             "currency": "KRW",
-            "url": "https://tourvis.com/activity?utm_source=naver&utm_medium=ss&utm_campaign=tna_main",
-            "snippet": "[빠른확정] 다낭 바나힐 투어 단독투어 주간 야간 입장권 (케이블카, 왕복차량) (소인) 46,024원 배송비 무료 2%쿠폰 할인가 44,644원 4.9 (240) 찜 13 투어비스 네이버페이"
+            "url": "https://pkgtour.naver.com/brandmall/tourvis",
+            "snippet": "[당일입장가능] 다낭 바나힐 주간 야간 QR 입장권+왕복 케이블카 (점심 뷔페 옵션) 56,924원 예약가능당일여행노쇼핑 투어비스 브랜드관 네이버페이포인트 3,415원"
           }
         ],
         "verdict": {
-          "mrtIsCheapest": false,
-          "overpayPct": 18,
-          "cheapestOther": 26800,
-          "deltaWon": 6050
+          "mrtIsCheapest": true,
+          "savingPct": 42,
+          "cheapestOther": 56924,
+          "deltaWon": 24074
         }
       }
     },
@@ -100,30 +86,10 @@
         "why": "다낭·방콕 자유여행 베스트셀러 단품 SKU"
       },
       "priceComparison": {
-        "checkedAt": "2026-05-17T18:33:19+09:00",
+        "checkedAt": "2026-05-23T06:33:20+09:00",
         "query": "방콕 차오프라야 프린세스 디너크루즈",
-        "sources": [
-          {
-            "seller": "클룩",
-            "price": 39000,
-            "currency": "KRW",
-            "url": "https://klook.com/",
-            "snippet": "방콕 차오프라야 프린세스 디너 크루즈 39,000원 4.5 (1.7만) 찜 2 클룩"
-          },
-          {
-            "seller": "투어비스",
-            "price": 41710,
-            "currency": "KRW",
-            "url": "https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Ftourvisofficial&tr=nsls&nl-ts-pid=jlE7TwqX5mkCYnU4eOl-457898",
-            "snippet": "방콕 차오프라야 프린세스 선셋/디너 크루즈 41,710원 투어비스 스토어"
-          }
-        ],
-        "verdict": {
-          "mrtIsCheapest": true,
-          "savingPct": 36,
-          "cheapestOther": 39000,
-          "deltaWon": 14000
-        }
+        "sources": [],
+        "verdict": null
       }
     }
   ],
@@ -146,21 +112,21 @@
     "mode": "new_lows_only"
   },
   "lastComparisonSweep": {
-    "checkedAt": "2026-05-17T18:33:21+09:00",
+    "checkedAt": "2026-05-23T06:33:22+09:00",
     "summary": [
       {
         "i": 0,
         "title": "다낭 바나힐 입장권 (QR 바로 입장 · 왕복 케이블카 포함)",
         "mrt": 32850,
-        "cheapestOther": 26800,
-        "sourceCount": 3
+        "cheapestOther": 56924,
+        "sourceCount": 1
       },
       {
         "i": 1,
         "title": "방콕 차오프라야 프린세스 선셋/디너크루즈",
         "mrt": 25000,
-        "cheapestOther": 39000,
-        "sourceCount": 2
+        "cheapestOther": null,
+        "sourceCount": 0
       }
     ]
   }
