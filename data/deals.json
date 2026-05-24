@@ -41,7 +41,7 @@
         "why": "제주·서울·용인 베스트셀러 입장권·체험 SKU"
       },
       "priceComparison": {
-        "checkedAt": "2026-05-25T00:33:12+09:00",
+        "checkedAt": "2026-05-25T06:33:12+09:00",
         "query": "서귀포잠수함 탑승권",
         "sources": [
           {
@@ -93,7 +93,7 @@
         "why": "제주·서울·용인 베스트셀러 입장권·체험 SKU"
       },
       "priceComparison": {
-        "checkedAt": "2026-05-25T00:33:20+09:00",
+        "checkedAt": "2026-05-25T06:33:20+09:00",
         "query": "제주 헬로키티아일랜드 입장권",
         "sources": [
           {
@@ -138,7 +138,7 @@
         "why": "제주·서울·용인 베스트셀러 입장권·체험 SKU"
       },
       "priceComparison": {
-        "checkedAt": "2026-05-25T00:33:28+09:00",
+        "checkedAt": "2026-05-25T06:33:29+09:00",
         "query": "N서울타워 전망대 입장권",
         "sources": [
           {
@@ -197,7 +197,7 @@
         "why": "제주·서울·용인 베스트셀러 입장권·체험 SKU"
       },
       "priceComparison": {
-        "checkedAt": "2026-05-25T00:33:35+09:00",
+        "checkedAt": "2026-05-25T06:33:37+09:00",
         "query": "제주 용눈이오름 레일바이크",
         "sources": [
           {
@@ -206,6 +206,13 @@
             "currency": "KRW",
             "url": "http://www.gmarket.co.kr/index.asp?jaehuid=200003874",
             "snippet": "제주 레일바이크 / 제주도 액티비티 이색체험 용눈이오름 11,210원 배송비 무료 4.44 (20) 찜 1 G마켓"
+          },
+          {
+            "seller": "11번가",
+            "price": 11800,
+            "currency": "KRW",
+            "url": "http://www.11st.co.kr/connect/Gateway.tmall?method=Xsite&tid=1000000550",
+            "snippet": "[제주] 레일바이크 이용권/용눈이오름/제주동부관광지/체험 11,800원 배송비 무료 리뷰 7 11번가"
           }
         ],
         "verdict": {
@@ -236,7 +243,7 @@
     "mode": "new_lows_only"
   },
   "lastComparisonSweep": {
-    "checkedAt": "2026-05-25T00:33:37+09:00",
+    "checkedAt": "2026-05-25T06:33:39+09:00",
     "summary": [
       {
         "i": 0,
@@ -264,7 +271,7 @@
         "title": "제주 레일바이크 탑승권 (용눈이오름)",
         "mrt": 11800,
         "cheapestOther": 11210,
-        "sourceCount": 1
+        "sourceCount": 2
       }
     ]
   }
