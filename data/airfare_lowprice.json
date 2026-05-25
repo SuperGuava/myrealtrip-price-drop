@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-05-25T18:45:01+09:00",
-  "totalSave": 284300,
-  "count": 12,
+  "checkedAt": "2026-05-26T00:45:02+09:00",
+  "totalSave": 174500,
+  "count": 9,
   "cards": [
     {
       "origin": "ICN",
@@ -22,24 +22,6 @@
       }
     },
     {
-      "origin": "GMP",
-      "destination": "CJU",
-      "depart": "2026-05-25",
-      "carrier": "LJ",
-      "intl": false,
-      "price": 50000,
-      "baseline": 83600,
-      "save": 33600,
-      "mylinkCode": "https://myrealt.rip/ZTKk53",
-      "mylink": "https://myrealt.rip/ZTKk53",
-      "external": {
-        "naver": "https://flight.naver.com/flights/domestic/GMP-CJU-20260525/?adult=2",
-        "kayak": "https://www.kayak.co.kr/flights/GMP-CJU/2026-05-25/2adults",
-        "skyscanner": "https://www.skyscanner.co.kr/transport/flights/gmp/cju/260525/?adultsv2=2",
-        "google": "https://www.google.com/travel/flights?q=Flights%20to%20CJU%20from%20GMP%20on%202026-05-25"
-      }
-    },
-    {
       "origin": "ICN",
       "destination": "KIX",
       "depart": "2026-06-09",
@@ -55,24 +37,6 @@
         "kayak": "https://www.kayak.co.kr/flights/ICN-KIX/2026-06-09/2adults",
         "skyscanner": "https://www.skyscanner.co.kr/transport/flights/icn/kix/260609/?adultsv2=2",
         "google": "https://www.google.com/travel/flights?q=Flights%20to%20KIX%20from%20ICN%20on%202026-06-09"
-      }
-    },
-    {
-      "origin": "GMP",
-      "destination": "CJU",
-      "depart": "2026-05-25",
-      "carrier": "7C",
-      "intl": false,
-      "price": 48000,
-      "baseline": 83600,
-      "save": 35600,
-      "mylinkCode": "https://myrealt.rip/ZVlm76",
-      "mylink": "https://myrealt.rip/ZVlm76",
-      "external": {
-        "naver": "https://flight.naver.com/flights/domestic/GMP-CJU-20260525/?adult=2",
-        "kayak": "https://www.kayak.co.kr/flights/GMP-CJU/2026-05-25/2adults",
-        "skyscanner": "https://www.skyscanner.co.kr/transport/flights/gmp/cju/260525/?adultsv2=2",
-        "google": "https://www.google.com/travel/flights?q=Flights%20to%20CJU%20from%20GMP%20on%202026-05-25"
       }
     },
     {
@@ -109,24 +73,6 @@
         "kayak": "https://www.kayak.co.kr/flights/ICN-BKK/2026-06-13/2adults",
         "skyscanner": "https://www.skyscanner.co.kr/transport/flights/icn/bkk/260613/?adultsv2=2",
         "google": "https://www.google.com/travel/flights?q=Flights%20to%20BKK%20from%20ICN%20on%202026-06-13"
-      }
-    },
-    {
-      "origin": "GMP",
-      "destination": "CJU",
-      "depart": "2026-05-25",
-      "carrier": "ZE",
-      "intl": false,
-      "price": 43000,
-      "baseline": 83600,
-      "save": 40600,
-      "mylinkCode": "https://myrealt.rip/ZYi600",
-      "mylink": "https://myrealt.rip/ZYi600",
-      "external": {
-        "naver": "https://flight.naver.com/flights/domestic/GMP-CJU-20260525/?adult=2",
-        "kayak": "https://www.kayak.co.kr/flights/GMP-CJU/2026-05-25/2adults",
-        "skyscanner": "https://www.skyscanner.co.kr/transport/flights/gmp/cju/260525/?adultsv2=2",
-        "google": "https://www.google.com/travel/flights?q=Flights%20to%20CJU%20from%20GMP%20on%202026-05-25"
       }
     },
     {
