@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-05-26T00:45:02+09:00",
+  "checkedAt": "2026-05-26T06:45:01+09:00",
   "totalSave": 174500,
-  "count": 9,
+  "count": 10,
   "cards": [
     {
       "origin": "ICN",
@@ -163,6 +163,24 @@
         "kayak": "https://www.kayak.co.kr/flights/ICN-FUK/2026-06-20/2adults",
         "skyscanner": "https://www.skyscanner.co.kr/transport/flights/icn/fuk/260620/?adultsv2=2",
         "google": "https://www.google.com/travel/flights?q=Flights%20to%20FUK%20from%20ICN%20on%202026-06-20"
+      }
+    },
+    {
+      "origin": "ICN",
+      "destination": "NRT",
+      "depart": "2026-06-26",
+      "carrier": "7C",
+      "intl": true,
+      "price": 146700,
+      "baseline": null,
+      "save": 0,
+      "mylinkCode": "https://myrealt.rip/aLMG1d",
+      "mylink": "https://myrealt.rip/aLMG1d",
+      "external": {
+        "naver": "https://flight.naver.com/flights/international/ICN-NRT-20260626/?adult=2",
+        "kayak": "https://www.kayak.co.kr/flights/ICN-NRT/2026-06-26/2adults",
+        "skyscanner": "https://www.skyscanner.co.kr/transport/flights/icn/nrt/260626/?adultsv2=2",
+        "google": "https://www.google.com/travel/flights?q=Flights%20to%20NRT%20from%20ICN%20on%202026-06-26"
       }
     }
   ]
