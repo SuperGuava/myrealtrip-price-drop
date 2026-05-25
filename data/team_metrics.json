@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-05-26T00:45:02+09:00",
+  "checkedAt": "2026-05-26T06:45:01+09:00",
   "funnel": {
     "joins": 4,
     "clicks": 0,
@@ -7,7 +7,7 @@
   },
   "savings": {
     "airfareTotal": 174500,
-    "lowpriceCount": 12
+    "lowpriceCount": 10
   },
   "inventory": {
     "flights": 2,
