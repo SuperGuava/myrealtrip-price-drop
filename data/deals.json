@@ -41,7 +41,7 @@
         "why": "표준 입장권 위주, 다른 OTA 가격을 함께 노출"
       },
       "priceComparison": {
-        "checkedAt": "2026-05-26T06:33:11+09:00",
+        "checkedAt": "2026-05-26T12:33:11+09:00",
         "query": "도쿄 디즈니랜드 1일권",
         "sources": [],
         "verdict": null
@@ -73,7 +73,7 @@
         "why": "표준 입장권 위주, 다른 OTA 가격을 함께 노출"
       },
       "priceComparison": {
-        "checkedAt": "2026-05-26T06:33:19+09:00",
+        "checkedAt": "2026-05-26T12:33:18+09:00",
         "query": "오사카 유니버설 스튜디오 1일권",
         "sources": [
           {
@@ -85,10 +85,10 @@
           },
           {
             "seller": "하나투어",
-            "price": 82400,
+            "price": 84000,
             "currency": "KRW",
             "url": "https://pkgtour.naver.com/brandmall/hanatour",
-            "snippet": "[입장권][일본] 오사카 유니버셜 스튜디오 재팬 입장권 (1일권/1.5일권/2일권) 82,400원 예약가능당일여행노쇼핑 하나투어 브랜드관 네이버페이포인트 4,944원"
+            "snippet": "[입장권][일본] 오사카 유니버셜 스튜디오 재팬 입장권 (1일권/1.5일권/2일권) 84,000원 예약가능당일여행노쇼핑 하나투어 브랜드관 네이버페이포인트 5,040원"
           },
           {
             "seller": "투어비스",
@@ -133,7 +133,7 @@
     "mode": "new_lows_only"
   },
   "lastComparisonSweep": {
-    "checkedAt": "2026-05-26T06:33:21+09:00",
+    "checkedAt": "2026-05-26T12:33:20+09:00",
     "summary": [
       {
         "i": 0,
