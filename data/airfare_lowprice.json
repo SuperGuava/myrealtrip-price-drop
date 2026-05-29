@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-05-26T18:45:02+09:00",
+  "checkedAt": "2026-05-30T06:45:01+09:00",
   "totalSave": 174500,
-  "count": 10,
+  "count": 11,
   "cards": [
     {
       "origin": "ICN",
@@ -181,6 +181,24 @@
         "kayak": "https://www.kayak.co.kr/flights/ICN-NRT/2026-06-26/2adults",
         "skyscanner": "https://www.skyscanner.co.kr/transport/flights/icn/nrt/260626/?adultsv2=2",
         "google": "https://www.google.com/travel/flights?q=Flights%20to%20NRT%20from%20ICN%20on%202026-06-26"
+      }
+    },
+    {
+      "origin": "ICN",
+      "destination": "NRT",
+      "depart": "2026-06-27",
+      "carrier": "ZE",
+      "intl": true,
+      "price": 141900,
+      "baseline": null,
+      "save": 0,
+      "mylinkCode": "https://myrealt.rip/aaHy76",
+      "mylink": "https://myrealt.rip/aaHy76",
+      "external": {
+        "naver": "https://flight.naver.com/flights/international/ICN-NRT-20260627/?adult=2",
+        "kayak": "https://www.kayak.co.kr/flights/ICN-NRT/2026-06-27/2adults",
+        "skyscanner": "https://www.skyscanner.co.kr/transport/flights/icn/nrt/260627/?adultsv2=2",
+        "google": "https://www.google.com/travel/flights?q=Flights%20to%20NRT%20from%20ICN%20on%202026-06-27"
       }
     }
   ]
