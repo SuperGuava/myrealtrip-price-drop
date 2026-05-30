@@ -101,11 +101,11 @@
     "rejections": [],
     "mode": "include_new_seed"
   },
-  "lastSweepAt": "2026-05-31 04:18 KST",
-  "lastSweepRunId": "watch-20260531T0417-싱가포르",
+  "lastSweepAt": "2026-05-31 08:17 KST",
+  "lastSweepRunId": "watch-20260531T0817-제주",
   "lastSweepMeta": {
     "source": "mangobingsu-myrealtrip",
-    "received": 0,
+    "received": 8,
     "emitted": 0,
     "rejected": 0,
     "rejections": [],
