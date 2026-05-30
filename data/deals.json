@@ -1,81 +1,79 @@
 {
   "date": "2026-05-30",
-  "updatedAt": "2026-05-30 04:17 KST",
-  "runId": "watch-20260530T0417-제주",
+  "updatedAt": "2026-05-30 23:00 KST",
+  "runId": "mb-curated-20260530T2300-southeast_asia_iconic",
   "theme": {
-    "keyword": "제주 가족",
-    "title": "제주 가족여행 가격하락",
-    "subtitle": "아이랑 가기 좋은 액티비티",
-    "city": "제주",
-    "persona": "family-with-kids"
+    "title": "동남아 아이콘 액티비티 — OTA 가격 비교",
+    "subtitle": "다낭·방콕 자유여행 베스트셀러 단품 SKU",
+    "city": "동남아",
+    "persona": "couple-or-family"
   },
   "metrics": {
     "joins": 0,
     "clicks": 0,
     "payments": 0,
-    "discoveredCount": 1
+    "discoveredCount": 2
   },
   "deals": [
     {
       "shop": "마이리얼트립",
-      "title": "[제주야간] 혼여, 커플, 친구, 가족 밤산책스냅",
-      "price": 32300,
-      "previousPrice": 35000,
-      "url": "https://myrealt.rip/aa6q4a",
+      "title": "다낭 바나힐 입장권 (QR 바로 입장 · 왕복 케이블카 포함)",
+      "price": 32850,
+      "previousPrice": 32850,
+      "url": "https://www.myrealtrip.com/offers/63983",
       "source": "mangobingsu-myrealtrip",
-      "sourceId": "4634897",
-      "reviewScore": 5,
-      "lowType": "new_low",
-      "label": "오늘의 가격하락",
+      "sourceId": "63983",
+      "reviewScore": 4.8,
+      "lowType": "first_collected",
+      "label": "첫 수집가",
       "evidence": {
-        "priceSource": "myrealtrip-partner-api",
-        "checkedAt": "2026-05-30T04:17:02+09:00",
-        "reason": "MRT TNA 검색 시점가 32,300원"
+        "priceSource": "myrealtrip-curated",
+        "checkedAt": "2026-05-30T23:00:02+09:00",
+        "reason": "마이리얼트립 직접 판매 ₩32,850 (큐레이션 표준 상품)"
       },
       "tags": [
-        "제주",
-        "family-with-kids"
+        "다낭",
+        "바나힐",
+        "1일권"
       ],
       "display": {
         "badge": "오늘의 후보",
-        "why": "아이랑 가기 좋은 액티비티"
+        "why": "다낭·방콕 자유여행 베스트셀러 단품 SKU"
+      }
+    },
+    {
+      "shop": "마이리얼트립",
+      "title": "방콕 차오프라야 프린세스 선셋/디너크루즈",
+      "price": 25000,
+      "previousPrice": 25000,
+      "url": "https://experiences.myrealtrip.com/products/3509017",
+      "source": "mangobingsu-myrealtrip",
+      "sourceId": "3509017",
+      "reviewScore": 4.5,
+      "lowType": "first_collected",
+      "label": "첫 수집가",
+      "evidence": {
+        "priceSource": "myrealtrip-curated",
+        "checkedAt": "2026-05-30T23:00:02+09:00",
+        "reason": "마이리얼트립 직접 판매 ₩25,000 (큐레이션 표준 상품)"
       },
-      "priceComparison": {
-        "checkedAt": "2026-05-30T18:33:11+09:00",
-        "query": "혼여, 커플, 친구, 가족 밤산책스냅",
-        "sources": [],
-        "verdict": null
+      "tags": [
+        "방콕",
+        "디너크루즈",
+        "야경"
+      ],
+      "display": {
+        "badge": "오늘의 후보",
+        "why": "다낭·방콕 자유여행 베스트셀러 단품 SKU"
       }
     }
   ],
   "meta": {
     "source": "mangobingsu-myrealtrip",
-    "received": 8,
-    "emitted": 1,
+    "received": 2,
+    "emitted": 2,
     "rejected": 0,
     "rejections": [],
-    "mode": "new_lows_only"
-  },
-  "lastSweepAt": "2026-05-30 20:17 KST",
-  "lastSweepRunId": "watch-20260530T2017-싱가포르",
-  "lastSweepMeta": {
-    "source": "mangobingsu-myrealtrip",
-    "received": 8,
-    "emitted": 0,
-    "rejected": 0,
-    "rejections": [],
-    "mode": "new_lows_only"
-  },
-  "lastComparisonSweep": {
-    "checkedAt": "2026-05-30T18:33:13+09:00",
-    "summary": [
-      {
-        "i": 0,
-        "title": "[제주야간] 혼여, 커플, 친구, 가족 밤산책스냅",
-        "mrt": 32300,
-        "cheapestOther": null,
-        "sourceCount": 0
-      }
-    ]
+    "mode": "include_new_seed"
   }
 }
